@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Откривена је прљавштина\nОчистите прст или екран.</string>
+    <string name="fingerprint_acquired_insufficient">Покријте сензор\nПоставите прст преко читавог сензора када га додирујете.</string>
+    <string name="fingerprint_acquired_partial">Покријте сензор\nПоставите прст преко читавог сензора када га додирујете.</string>
+    <string name="fingerprint_acquired_too_fast">Задржите дуже\nДржите прст на сензору док не осјетите вибрацију.</string>
+    <string name="immersive_cling_description">Да бисте изашли, превуците надоле одозго.</string>
+    <string name="low_internal_storage_view_text">Одмах обришите складишни простор; у супротном, рад уређаја може бити поремећен</string>
+</resources>

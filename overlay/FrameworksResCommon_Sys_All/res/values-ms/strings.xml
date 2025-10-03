@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Kotoran dikesan\nBersihkan jari anda atau skrin.</string>
+    <string name="fingerprint_acquired_insufficient">Litupi pengesan\nLetakkan jari anda di atas keseluruhan pengesan semasa mengetik.</string>
+    <string name="fingerprint_acquired_partial">Litupi pengesan\nLetakkan jari anda di atas keseluruhan pengesan semasa mengetik.</string>
+    <string name="fingerprint_acquired_too_fast">Tahan lebih lama\nKekalkan jari anda di atas pengesan sehingga anda merasa getaran.</string>
+    <string name="immersive_cling_description">Untuk keluar, leret dari atas ke bawah.</string>
+    <string name="low_internal_storage_view_text">Sila kosongkan storan dengan segera atau peranti mungkin berfungsi secara tidak normal</string>
+</resources>

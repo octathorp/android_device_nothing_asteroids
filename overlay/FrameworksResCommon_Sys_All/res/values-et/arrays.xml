@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>OOTA_SÕRMEJÄLJE_SISESTAMIST</item>
+        <item>SÕRM_ALLA</item>
+        <item>SÕRM_ÜLES</item>
+        <item>Tõstke sõrm üles.</item>
+        <item>Muutke sõrme asendit\nMuutke pisut sõrme asendit, et teist külge registreerida.</item>
+        <item>Sõrmejälg on juba salvestatud\nSarnane sõrmejälg on juba salvestatud. Proovige uuesti teise sõrmega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+        <item>Vale sõrm\nTuvastatud sõrmejälge ei olnud avamiseks võimalik kasutada; proovige uuesti. Püsiva vea korral võtke ühendust klienditoega.</item>
+    </array>
+</resources>

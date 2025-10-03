@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Hebe deinen Finger</item>
+        <item>Passe deine Fingerposition an\nPasse deine Fingerposition leicht an, um eine andere Seite aufzunehmen.</item>
+        <item>Fingerabdruck bereits gespeichert\nEin ähnlicher Fingerabdruck ist bereits gespeichert. Bitte versuche es noch einmal mit einem anderen Finger.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+        <item>Ungültiger Finger\nDer erkannte Fingerabdruck konnte nicht zum Entsperren verwendet werden, bitte versuche es erneut. Wenn dieser Fehler weiterhin besteht, wende dich bitte an den Kundendienst.</item>
+    </array>
+</resources>

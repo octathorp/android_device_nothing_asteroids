@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">ਗੰਦਗੀ ਦਾ ਪਤਾ ਲੱਗਿਆ\nਆਪਣੀ ਉਂਗਲ ਜਾਂ ਸਕ੍ਰੀਨ ਕਲੀਨ ਕਰੋ।</string>
+    <string name="fingerprint_acquired_insufficient">ਸੈਂਸਰ ਨੂੰ ਕਵਰ ਕਰੋ\nਟੈਪ ਕਰਨ ਦੌਰਾਨ ਆਪਣੀ ਉਂਗਲ ਨੂੰ ਪੂਰੇ ਸੈਂਸਰ \'ਤੇ ਰੱਖੋ।</string>
+    <string name="fingerprint_acquired_partial">ਸੈਂਸਰ ਨੂੰ ਕਵਰ ਕਰੋ\nਟੈਪ ਕਰਨ ਦੌਰਾਨ ਆਪਣੀ ਉਂਗਲ ਨੂੰ ਪੂਰੇ ਸੈਂਸਰ \'ਤੇ ਰੱਖੋ।</string>
+    <string name="fingerprint_acquired_too_fast">ਜ਼ਿਆਦਾ ਸਮੇਂ ਤੱਕ ਫੜ੍ਹੋ\nਜਦੋਂ ਤੱਕ ਤੁਹਾਨੂੰ ਵਾਈਬ੍ਰੇਸ਼ਨ ਮਹਿਸੂਸ ਨਹੀਂ ਹੁੰਦੀ ਹੈ ਆਪਣੀ ਉਂਗਲ ਨੂੰ ਸੈਂਸਰ \'ਤੇ ਰ ਖੋ।</string>
+    <string name="immersive_cling_description">ਬਾਹਰ ਜਾਣ ਲਈ, ਉਪਰੋਂ ਹੇਠਾਂ ਸਵਾਈਪ ਕਰੋ।</string>
+    <string name="low_internal_storage_view_text">ਕਿਰਪਾ ਕਰਕੇ ਸਟੋਰੇਜ ਨੂੰ ਤੁਰੰਤ ਕਲੀਅਰ ਕਰੋ ਜਾਂ ਡਿਵਾਈਸ ਅਸਧਾਰਨ ਤਰੀਕੇ ਨਾਲ ਕੰਮ ਕਰ ਸਕਦੀ ਹੈ</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>抬起手指</item>
+        <item>调整手指\n稍微调整一下手指，以便记录另一侧。</item>
+        <item>指纹已保存\n已经保存了一个相似的指纹。请换根手指再试一次。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+        <item>手指无效\n检测到的指纹无法用于解锁，请重试。如果此错误仍然存在，请联系客户支持部门。</item>
+    </array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Løft fingeren</item>
+        <item>Flyt fingeren\nFlyt fingeren en anelse for at registrere en anden side.</item>
+        <item>Fingeraftryk allerede gemt\nDer findes et lignende fingeraftryk i forvejen. Prøv igen med en anden finger.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+        <item>Forkert finger\nDet registrerede fingeraftryk kan ikke bruges til at låse op; prøv igen. Kontakt kundesupport, hvis problemet vedvarer.</item>
+    </array>
+</resources>

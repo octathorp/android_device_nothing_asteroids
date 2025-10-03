@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_face_acquire_keyguard_ignorelist">
+        <item>11</item>
+    </array>
+    <array name="config_ntpServers">
+        <item>ntp://time.android.com</item>
+        <item>ntp://pool.ntp.org</item>
+    </array>
+    <array name="config_udfps_enroll_stage_thresholds">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.55</item>
+    </array>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Lift your finger</item>
+        <item>Adjust your finger\nAdjust your finger slightly to record a different side.</item>
+        <item>Fingerprint already saved\nA similar fingerprint is already saved. Please try again with another finger.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+    </array>
+    <array name="zzz_config_device_disable_all_apk_list">
+        <item>com.qualcomm.qti.server.qtiwifi</item>
+        <item>com.nt.facerecognition</item>
+        <item>com.goodix.fingerprint.setting</item>
+        <item>com.nothing.glyphnotification</item>
+        <item>com.nothing.userguide</item>
+    </array>
+    <array name="zzz_oem_required_apps_managed_device">
+        <item>com.tools.datacheck</item>
+        <item>com.nothing.logkit</item>
+    </array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="immersive_cling_description">Kilépéshez csúsztassa ujját fentről lefelé.</string>
+    <string name="low_internal_storage_view_text">Kérjük, azonnal ürítse ki a tárhelyet, különben a készülék rendellenesen fog működni</string>
+</resources>

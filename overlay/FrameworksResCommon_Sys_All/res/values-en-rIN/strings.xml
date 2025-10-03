@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Dirt detected\nClean your finger or the screen.</string>
+    <string name="fingerprint_acquired_insufficient">Cover the sensor\nPlace your finger over the entire sensor when tapping.</string>
+    <string name="fingerprint_acquired_partial">Cover the sensor\nPlace your finger over the entire sensor when tapping.</string>
+    <string name="fingerprint_acquired_too_fast">Hold longer\nKeep your finger on the sensor until you feel a vibration.</string>
+    <string name="low_internal_storage_view_text">Please clear storage, otherwise device may not run regularly</string>
+</resources>

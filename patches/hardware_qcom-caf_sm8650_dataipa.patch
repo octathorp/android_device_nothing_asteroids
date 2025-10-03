@@ -1,0 +1,78 @@
+diff --git a/ipanat/inc/ipa_ipv6ct.h b/ipanat/inc/ipa_ipv6ct.h
+index 7796d30b..80ccecc6 100644
+--- a/ipanat/inc/ipa_ipv6ct.h
++++ b/ipanat/inc/ipa_ipv6ct.h
+@@ -31,7 +31,7 @@
+ 
+ #include <stdint.h>
+ #include <stdbool.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ /**
+  * enum ipa_ipv6_ct_direction_settings_type - direction filter settings
+diff --git a/ipanat/inc/ipa_mem_descriptor.h b/ipanat/inc/ipa_mem_descriptor.h
+index c7dd7399..682b65c9 100644
+--- a/ipanat/inc/ipa_mem_descriptor.h
++++ b/ipanat/inc/ipa_mem_descriptor.h
+@@ -31,7 +31,7 @@
+ 
+ #include <stdint.h>
+ #include <stdbool.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ typedef struct
+ {
+diff --git a/ipanat/inc/ipa_nat_utils.h b/ipanat/inc/ipa_nat_utils.h
+index 22b99c42..72e30622 100644
+--- a/ipanat/inc/ipa_nat_utils.h
++++ b/ipanat/inc/ipa_nat_utils.h
+@@ -68,7 +68,7 @@
+ #include <string.h>
+ #include <syslog.h>
+ #include <time.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ #ifndef FALSE
+ #define FALSE 0
+diff --git a/ipanat/inc/ipa_table.h b/ipanat/inc/ipa_table.h
+index e394a451..56aee83c 100644
+--- a/ipanat/inc/ipa_table.h
++++ b/ipanat/inc/ipa_table.h
+@@ -31,7 +31,7 @@
+ 
+ #include <stdint.h>
+ #include <stdbool.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ #define IPA_TABLE_MAX_ENTRIES 5120
+ 
+diff --git a/ipanat/src/ipa_ipv6ct.c b/ipanat/src/ipa_ipv6ct.c
+index 45e454c4..a6c4a8e4 100644
+--- a/ipanat/src/ipa_ipv6ct.c
++++ b/ipanat/src/ipa_ipv6ct.c
+@@ -68,7 +68,7 @@
+ #include <errno.h>
+ #include <pthread.h>
+ #include <unistd.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ #define IPA_IPV6CT_DEBUG_FILE_PATH "/sys/kernel/debug/ipa/ipv6ct"
+ #define IPA_UC_ACT_DEBUG_FILE_PATH "/sys/kernel/debug/ipa/uc_act_table"
+diff --git a/ipanat/src/ipa_nat_drvi.c b/ipanat/src/ipa_nat_drvi.c
+index 53eaa4dd..a36026de 100644
+--- a/ipanat/src/ipa_nat_drvi.c
++++ b/ipanat/src/ipa_nat_drvi.c
+@@ -39,7 +39,7 @@
+ #include <errno.h>
+ #include <pthread.h>
+ #include <unistd.h>
+-#include <linux/msm_ipa.h>
++#include <../../../../../../kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi/linux/msm_ipa.h>
+ 
+ #define IPA_NAT_DEBUG_FILE_PATH "/sys/kernel/debug/ipa/ip4_nat"
+ #define IPA_NAT_TABLE_NAME "IPA NAT table"

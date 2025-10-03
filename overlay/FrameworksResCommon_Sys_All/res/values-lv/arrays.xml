@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Paceliet pirkstu</item>
+        <item>Regulējiet pirksta novietojumu\nNedaudz pamainiet pirksta novietojumu, lai ierakstītu citu pusi.</item>
+        <item>Pirksta nospiedums jau saglabāts\nLīdzīgs pirksta nospiedums jau ir saglabāts. Mēģiniet vēlreiz ar citu pirkstu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+        <item>Nederīgs pirksts\nKonstatēto pirksta nospiedumu nevarēja izmantot atbloķēšanai, mēģiniet vēlreiz. Ja kļūda nepazūd, sazinieties ar klientu apkalpošanas dienestu.</item>
+    </array>
+</resources>

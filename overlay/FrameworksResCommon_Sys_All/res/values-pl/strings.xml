@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Wykryto zabrudzenia\nOczyść palec lub ekran.</string>
+    <string name="fingerprint_acquired_insufficient">Zakryj czujnik\nPrzy dotknięciu umieść palec na całym czujniku.</string>
+    <string name="fingerprint_acquired_partial">Zakryj czujnik\nPrzy dotknięciu umieść palec na całym czujniku.</string>
+    <string name="fingerprint_acquired_too_fast">Przytrzymaj dłużej\nPrzytrzymaj palec na czujniku do momentu aż poczujesz wibracje.</string>
+    <string name="immersive_cling_description">Aby wyjść, przesuń palcem z góry na dół.</string>
+    <string name="low_internal_storage_view_text">Natychmiast zwolnij miejsce w pamięci urządzenia, w przeciwnym razie może ono działać nieprawidłowo</string>
+</resources>

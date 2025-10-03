@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_screenBrightnessDimFloat">0.05</dimen>
+    <dimen name="config_screenBrightnessDozeFloat">0.05</dimen>
+    <dimen name="config_screenBrightnessSettingDefaultFloat">0.4</dimen>
+    <dimen name="config_screenBrightnessSettingMaximumFloat">1</dimen>
+    <dimen name="config_screenBrightnessSettingMinimumFloat">0</dimen>
+    <dimen name="rounded_corner_radius">100px</dimen>
+    <dimen name="status_bar_height">126px</dimen>
+    <dimen name="status_bar_height_default">126px</dimen>
+    <dimen name="status_bar_height_landscape">36dp</dimen>
+    <dimen name="status_bar_height_portrait">126px</dimen>
+</resources>

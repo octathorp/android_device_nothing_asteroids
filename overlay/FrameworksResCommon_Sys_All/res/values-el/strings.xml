@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Εντοπίστηκαν ακαθαρσίες\nΚαθαρίστε το δάχτυλό σας ή την οθόνη.</string>
+    <string name="fingerprint_acquired_insufficient">Cover the sensor\nPlace your finger over the entire sensor when tapping.</string>
+    <string name="fingerprint_acquired_partial">Καλύψτε τον αισθητήρα\nΤοποθετήστε το δάχτυλό σας πάνω από ολόκληρο τον αισθητήρα όταν πατάτε.</string>
+    <string name="fingerprint_acquired_too_fast">Κρατήστε το δάχτυλο περισσότερο\nΚρατήστε το δάχτυλό σας πάνω στον αισθητήρα μέχρι να νιώσετε μια δόνηση.</string>
+    <string name="immersive_cling_description">Για έξοδο, σύρετε προς τα κάτω από το επάνω μέρος.</string>
+    <string name="low_internal_storage_view_text">Εκκαθαρίστε αμέσως τον χώρο αποθήκευσης, διαφορετικά η συσκευή μπορεί να μην λειτουργήσει ομαλά</string>
+</resources>

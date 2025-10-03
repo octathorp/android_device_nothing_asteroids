@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Zistené nečistoty\nVyčistite si prst alebo obrazovku.</string>
+    <string name="fingerprint_acquired_insufficient">Zakryte snímač\nPri ťukaní priložte prst na celý snímač.</string>
+    <string name="fingerprint_acquired_partial">Zakryte snímač\nPri ťukaní priložte prst na celý snímač.</string>
+    <string name="fingerprint_acquired_too_fast">Podržte dlhšie\nPodržte prst na snímači, kým nepocítite vibráciu.</string>
+    <string name="immersive_cling_description">Ukončíte potiahnutím zhora nadol.</string>
+    <string name="low_internal_storage_view_text">Okamžite vymažte úložisko, inak môže zariadenie fungovať abnormálne</string>
+</resources>

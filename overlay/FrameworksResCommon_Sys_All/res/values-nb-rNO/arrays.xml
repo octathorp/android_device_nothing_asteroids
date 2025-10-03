@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Løft fingeren</item>
+        <item>Juster fingeren\nJuster fingeren litt for å registrere en annen del.</item>
+        <item>Fingeravtrykket er allerede lagret\nEt lignende fingeravtrykk er allerede lagret. Prøv på nytt med en annen finger.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+        <item>Ugyldig fingeravtrykk\nDet oppdagede fingeravtrykket kan ikke brukes til opplåsing, så prøv på nytt. Kontakt kundeservice hvis feilen vedvarer.</item>
+    </array>
+</resources>

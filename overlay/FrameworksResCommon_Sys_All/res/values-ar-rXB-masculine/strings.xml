@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">(M)‏‮Dirt‬‏ ‏‮detected‬‏\n‏‮Clean‬‏ ‏‮your‬‏ ‏‮finger‬‏ ‏‮or‬‏ ‏‮the‬‏ ‏‮screen.‬‏</string>
+    <string name="fingerprint_acquired_insufficient">(M)‏‮Cover‬‏ ‏‮the‬‏ ‏‮sensor‬‏\n‏‮Place‬‏ ‏‮your‬‏ ‏‮finger‬‏ ‏‮over‬‏ ‏‮the‬‏ ‏‮entire‬‏ ‏‮sensor‬‏ ‏‮when‬‏ ‏‮tapping.‬‏</string>
+    <string name="fingerprint_acquired_partial">(M)‏‮Cover‬‏ ‏‮the‬‏ ‏‮sensor‬‏\n‏‮Place‬‏ ‏‮your‬‏ ‏‮finger‬‏ ‏‮over‬‏ ‏‮the‬‏ ‏‮entire‬‏ ‏‮sensor‬‏ ‏‮when‬‏ ‏‮tapping.‬‏</string>
+    <string name="fingerprint_acquired_too_fast">(M)‏‮Hold‬‏ ‏‮longer‬‏\n‏‮Keep‬‏ ‏‮your‬‏ ‏‮finger‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮sensor‬‏ ‏‮until‬‏ ‏‮you‬‏ ‏‮feel‬‏ ‏‮a‬‏ ‏‮vibration.‬‏</string>
+    <string name="immersive_cling_description">(M)‏‮To‬‏ ‏‮exit,‬‏ ‏‮swipe‬‏ ‏‮down‬‏ ‏‮from‬‏ ‏‮the‬‏ ‏‮top.‬‏</string>
+    <string name="low_internal_storage_view_text">(M)‏‮Please‬‏ ‏‮clear‬‏ ‏‮storage,‬‏ ‏‮otherwise‬‏ ‏‮device‬‏ ‏‮may‬‏ ‏‮not‬‏ ‏‮run‬‏ ‏‮regularly‬‏</string>
+</resources>

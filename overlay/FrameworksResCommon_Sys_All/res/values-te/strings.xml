@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">ధూళి గుర్తించబడింది\nమీ వేలిని లేదా స్క్రీన్‌ను శుభ్రం చేయండి.</string>
+    <string name="fingerprint_acquired_insufficient">సెన్సార్‌ను కవర్ చేయండి\nనొక్కినప్పుడు మొత్తం సెన్సార్‌పై మీ వేలిని ఉంచండి.</string>
+    <string name="fingerprint_acquired_partial">సెన్సార్‌ను కవర్ చేయండి\nనొక్కినప్పుడు మొత్తం సెన్సార్‌పై మీ వేలిని ఉంచండి.</string>
+    <string name="fingerprint_acquired_too_fast">ఎక్కువసేపు పట్టుకోండి\nమీరు వైబ్రేషన్ అనుభూతి చెందే వరకు మీ వేలిని సెన్సార్‌పై ఉంచండి.</string>
+    <string name="immersive_cling_description">నిష్క్రమించడానికి, పై నుండి క్రిందికి స్వైప్ చేయండి.</string>
+    <string name="low_internal_storage_view_text">దయచేసి వెంటనే స్టోరేజీని క్లియర్ చేయండి లేదా పరికరం అసాధారణంగా పనిచేయవచ్చు</string>
+</resources>

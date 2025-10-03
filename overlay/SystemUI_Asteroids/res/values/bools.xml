@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="nt_config_udfps_should_reset_color">false</bool>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">(N)[Ðîŕţ ðéţéçţéð\nÇļéåñ ýöûŕ ƒîñĝéŕ öŕ ţĥé šçŕééñ. one two three four five six]</string>
+    <string name="fingerprint_acquired_insufficient">(N)[ÇöVéŕ ţĥé šéñšöŕ\nÞļåçé ýöûŕ ƒîñĝéŕ öVéŕ ţĥé éñţîŕé šéñšöŕ ŵĥéñ ţåþþîñĝ. one two three four five six seven eight]</string>
+    <string name="fingerprint_acquired_partial">(N)[ÇöVéŕ ţĥé šéñšöŕ\nÞļåçé ýöûŕ ƒîñĝéŕ öVéŕ ţĥé éñţîŕé šéñšöŕ ŵĥéñ ţåþþîñĝ. one two three four five six seven eight]</string>
+    <string name="fingerprint_acquired_too_fast">(N)[Ĥöļð ļöñĝéŕ\nĶééþ ýöûŕ ƒîñĝéŕ öñ ţĥé šéñšöŕ ûñţîļ ýöû ƒééļ å Vîɓŕåţîöñ. one two three four five six seven eight]</string>
+    <string name="immersive_cling_description">(N)[Ţö éхîţ, šŵîþé ðöŵñ ƒŕöḿ ţĥé ţöþ. one two three four]</string>
+    <string name="low_internal_storage_view_text">(N)[Þļéåšé çļéåŕ šţöŕåĝé, öţĥéŕŵîšé ðéVîçé ḿåý ñöţ ŕûñ ŕéĝûļåŕļý one two three four five six seven]</string>
+</resources>

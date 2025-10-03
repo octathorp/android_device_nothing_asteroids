@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">تم اكتشاف وجود شوائب\nنظف إصبعك أو الشاشة.</string>
+    <string name="fingerprint_acquired_insufficient">تغطية المستشعر\nضع إصبعك على المستشعر بالكامل عند النقر.</string>
+    <string name="fingerprint_acquired_partial">تغطية المستشعر\nضع إصبعك على المستشعر بالكامل عند النقر.</string>
+    <string name="fingerprint_acquired_too_fast">ضع إصبعك\nأبق إصبعك على المستشعر حتى تشعر بالاهتزاز.</string>
+    <string name="immersive_cling_description">للخروج، مرر بسرعة من أعلى إلى أسفل.</string>
+    <string name="low_internal_storage_view_text">يرجى تفريغ مساحة التخزين على الفور وإلا فقد لا يعمل الجهاز بشكل طبيعي</string>
+</resources>

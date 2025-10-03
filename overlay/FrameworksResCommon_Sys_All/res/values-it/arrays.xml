@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Solleva il dito</item>
+        <item>Muovi il dito\nMuovi leggermente il dito per registrare un\'altra area.</item>
+        <item>Impronta digitale già salvata\nUn\'impronta digitale simile è già stata salvata. Riprova con un altro dito.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+        <item>Dito non valido\nImpossibile utilizzare l\'impronta digitale rilevata per lo sblocco. Riprova. Se l\'errore persiste, contatta l\'assistenza clienti.</item>
+    </array>
+</resources>

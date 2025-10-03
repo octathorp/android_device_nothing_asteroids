@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Podnieś palec</item>
+        <item>Przesuń palec\nLekko przesuń palec, aby zarejestrować inną stronę.</item>
+        <item>Odcisk palca już zapisany\nPodobny odcisk palca jest już zapisany. Proszę spróbować ponownie z innym palcem.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+        <item>Nieprawidłowy odcisk palca\nWykryty odcisk palca nie może zostać użyty do odblokowania, spróbuj ponownie Jeśli błąd będzie się powtarzać, skontaktuj się z obsługą klienta.</item>
+    </array>
+</resources>

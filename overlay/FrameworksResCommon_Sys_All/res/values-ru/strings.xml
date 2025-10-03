@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Обнаружено загрязнение\nОчистите палец или экран.</string>
+    <string name="fingerprint_acquired_insufficient">Накройте сканер\nПри нажатии поместите палец на всю площадь сканера.</string>
+    <string name="fingerprint_acquired_partial">Накройте сканер\nПри нажатии поместите палец на всю площадь сканера.</string>
+    <string name="fingerprint_acquired_too_fast">Удерживайте дольше\nУдерживайте палец на сканере, пока не почувствуете вибрацию.</string>
+    <string name="immersive_cling_description">Чтобы выйти, проведите по экрану сверху вниз.</string>
+    <string name="low_internal_storage_view_text">Немедленно очистите память, иначе устройство может работать неправильно</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Angkat jari anda</item>
+        <item>Laraskan jari anda\nLaraskan jari anda sedikit untuk merakam sisi yang berbeza.</item>
+        <item>Cap jari telah disimpan\nCap jari yang serupa telah pun disimpan. Sila cuba lagi menggunakan jari yang lain.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+        <item>Jari tidak sah\nCap jari yang dikesan tidak dapat digunakan untuk membuka kunci, sila cuba lagi. Jika ralat ini berterusan, sila hubungi sokongan pelanggan.</item>
+    </array>
+</resources>

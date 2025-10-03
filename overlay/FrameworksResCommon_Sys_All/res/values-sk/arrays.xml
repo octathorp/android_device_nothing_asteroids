@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Zdvihnite prst</item>
+        <item>Upravte polohu prsta\nMierne upravte polohu prsta, aby ste zaznamenali aj inú stranu.</item>
+        <item>Odtlačok prsta je už uložený\nPodobný odtlačok prsta je už uložený. Skúste to znova s iným prstom.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+        <item>Neplatný prst\nZistený odtlačok prsta nebolo možné použiť na odomknutie, skúste to znova. Ak táto chyba pretrváva, obráťte sa na zákaznícku podporu.</item>
+    </array>
+</resources>

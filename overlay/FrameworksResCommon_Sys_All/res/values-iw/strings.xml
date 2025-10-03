@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">זוהה לכלוך\nנקה את האצבע או את המסך.</string>
+    <string name="fingerprint_acquired_insufficient">כסה את החיישן\nהנח את האצבע על כל החיישן בעת הקשה.</string>
+    <string name="fingerprint_acquired_partial">כסה את החיישן\nהנח את האצבע על כל החיישן בעת הקשה.</string>
+    <string name="fingerprint_acquired_too_fast">תחזיק יותר זמן\nהשאר את האצבע על החיישן עד שתרגיש רטט.</string>
+    <string name="immersive_cling_description">כדי לצאת, פשוט מחליקים אצבע מלמעלה למטה.</string>
+    <string name="low_internal_storage_view_text">אנא נקה את האחסון באופן מיידי או שההתקן עלול לפעול בצורה לא תקינה</string>
+</resources>

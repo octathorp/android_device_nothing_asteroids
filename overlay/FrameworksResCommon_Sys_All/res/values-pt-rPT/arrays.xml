@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>AGUARDAR_INTRODUÇÃO_DEDO</item>
+        <item>DEDO_PARA_BAIXO</item>
+        <item>DEDO_PARA_CIMA</item>
+        <item>Levante o dedo</item>
+        <item>Ajuste o dedo\nAjuste ligeiramente o dedo para registar um lado diferente.</item>
+        <item>Impressão digital já guardada\nJá foi guardada uma impressão digital semelhante. Tente novamente com outro dedo.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+        <item>Dedo inválido\nNão foi possível utilizar a impressão digital detetada para desbloqueio; tente novamente. Se este erro persistir, contacte o apoio ao cliente.</item>
+    </array>
+</resources>

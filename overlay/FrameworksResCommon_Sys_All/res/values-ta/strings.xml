@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">அழுக்கு கண்டறியப்பட்டது\nஉங்கள் விரல் அல்லது திரையை சுத்தம் செய்யவும்.</string>
+    <string name="fingerprint_acquired_insufficient">சென்சார் மூடவும்\nதட்டும்போது முழு சென்சார் மீதும் உங்கள் விரலை வைக்கவும்.</string>
+    <string name="fingerprint_acquired_partial">சென்சார் மூடவும்\nதட்டும்போது முழு சென்சார் மீதும் உங்கள் விரலை வைக்கவும்.</string>
+    <string name="fingerprint_acquired_too_fast">அதிக நேரம் பிடி\nநீங்கள் அதிர்வை உணரும் வரை உங்கள் விரலை சென்சாரில் வைத்திருங்கள்.</string>
+    <string name="immersive_cling_description">வெளியேற, மேலிருந்து கீழே ஸ்வைப் செய்யவும்</string>
+    <string name="low_internal_storage_view_text">தயவுசெய்து உடனடியாக சேமிப்பகத்தைச் சுத்தம்செய்திடுங்கள், இல்லையெனில் சாதனம் அசாதாரணமாக வேலை செய்யக்கூடும்</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>AȘTEPTARE_INTRARE_DEGET</item>
+        <item>DEGET_JOS</item>
+        <item>DEGET_SUS</item>
+        <item>Ridicați degetul</item>
+        <item>Ajustați degetul\nAjustați puțin degetul pentru a înregistra o porțiune diferită.</item>
+        <item>Amprentă deja salvată\nO amprentă similară este deja salvată. Încercați din nou cu un alt deget.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+        <item>Deget nevalid\nAmprenta detectată nu a putut fi utilizată pentru deblocare; încercați din nou. Dacă eroarea persistă, contactați asistența clienți.</item>
+    </array>
+</resources>

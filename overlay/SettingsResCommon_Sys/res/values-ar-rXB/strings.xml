@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_calling_setting_summary">‏‮Extended‬‏ ‏‮voice‬‏ ‏‮coverage‬‏ ‏‮over‬‏ ‏‮cellular‬‏ ‏‮internet.‬‏\n‏‮Disclaimer:‬‏ ‏‮Charges‬‏ ‏‮associated‬‏ ‏‮with‬‏ ‏‮data‬‏ ‏‮plan‬‏ ‏‮usage‬‏ ‏‮may‬‏ ‏‮ensue‬‏</string>
+    <string name="backup_calling_settings_title">‏‮Voice‬‏ ‏‮Over‬‏ ‏‮Cellular‬‏ ‏‮Internet‬‏</string>
+    <string name="keywords_backup_calling">‏‮Voice‬‏ ‏‮Over‬‏ ‏‮Cellular‬‏ ‏‮Internet‬‏</string>
+</resources>

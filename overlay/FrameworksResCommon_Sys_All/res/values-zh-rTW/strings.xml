@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">偵測到污垢\n請清潔您的手指或螢幕。</string>
+    <string name="fingerprint_acquired_insufficient">蓋住感應器\n當輕觸時，將您的手指放在整個感應器上方。</string>
+    <string name="fingerprint_acquired_partial">觸按指紋感應器\n當輕觸時，將您的手指平放在整個感應器上方。</string>
+    <string name="fingerprint_acquired_too_fast">保持觸按\n將手指平放在感應器上方，感覺到震動再移開。</string>
+    <string name="immersive_cling_description">如要退出，請從畫面頂端向下滑動。</string>
+    <string name="low_internal_storage_view_text">請立刻清除儲存空間，否則無法正常使用裝置</string>
+</resources>

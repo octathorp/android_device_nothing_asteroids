@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">汚れが検出されました\n指または画面をきれいにしてください。</string>
+    <string name="fingerprint_acquired_insufficient">センサーを覆ってください\nタップを行うときは、指でセンサー全体を覆い隠してください。</string>
+    <string name="fingerprint_acquired_partial">センサーを覆ってください\nタップを行うときは、指でセンサー全体を覆い隠してください。</string>
+    <string name="fingerprint_acquired_too_fast">より長く長押ししてください\n振動を感じるまで、指をセンサー上に置いたままにしてください。</string>
+    <string name="immersive_cling_description">終了するには、上から下にスワイプします。</string>
+    <string name="low_internal_storage_view_text">すぐにストレージの空き容量を増やしてください。デバイスの動作に異常が生じる可能性があります。</string>
+</resources>

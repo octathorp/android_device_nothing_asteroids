@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>移開手指</item>
+        <item>調整手指位置\n稍微調整手指位置，以便記錄不同邊。</item>
+        <item>指紋已經儲存\n類似指紋已經儲存過。請用另一隻手指再試一次。</item>
+        <item>指紋無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+        <item>手指無效\n偵測的指紋無法用來解鎖，如果錯誤持續，請再試一次，並聯絡客戶支援。</item>
+    </array>
+</resources>

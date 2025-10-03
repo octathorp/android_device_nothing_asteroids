@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Likaa havaittu\nPuhdista sormesi tai näyttö.</string>
+    <string name="fingerprint_acquired_insufficient">Peitä anturi\nAseta sormesi koko anturin ylle napauttaessa.</string>
+    <string name="fingerprint_acquired_partial">Peitä anturi\nAseta sormesi koko anturin ylle napauttaessa.</string>
+    <string name="fingerprint_acquired_too_fast">Pidä kauemmin\nPidä sormea anturilla, kunnes tunnet värinän.</string>
+    <string name="immersive_cling_description">Sulje palkki pyyhkäisemällä alas ruudun ylälaidasta.</string>
+    <string name="low_internal_storage_view_text">Tyhjennä tallennustila välittömästi, tai laite saattaa toimia epänormaalisti</string>
+</resources>

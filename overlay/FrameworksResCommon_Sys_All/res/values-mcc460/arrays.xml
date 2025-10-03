@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_ntpServers">
+        <item>ntp://cn.pool.ntp.org</item>
+        <item>ntp://2.android.pool.ntp.org</item>
+    </array>
+</resources>

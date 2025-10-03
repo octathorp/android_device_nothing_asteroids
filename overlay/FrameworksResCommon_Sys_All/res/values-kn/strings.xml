@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">ಕೊಳೆ ಗುರುತಿಸಲಾಗಿದೆ\nನಿಮ್ಮ ಬೆರಳು ಅಥವಾ ಸ್ಕ್ರೀನ್ ಸ್ವಚ್ಛಗೊಳಿಸಿ.</string>
+    <string name="fingerprint_acquired_insufficient">ಸೆನ್ಸರ್ ಮುಚ್ಚಿ\nಟ್ಯಾಪ್ ಮಾಡುವಾಗ ಇಡೀ ಸೆನ್ಸರ್ ಮೇಲೆ ನಿಮ್ಮ ಬೆರಳನ್ನು ಇಡಿ.</string>
+    <string name="fingerprint_acquired_partial">ಸೆನ್ಸರ್ ಮುಚ್ಚಿ\nಟ್ಯಾಪ್ ಮಾಡುವಾಗ ಇಡೀ ಸೆನ್ಸರ್ ಮೇಲೆ ನಿಮ್ಮ ಬೆರಳನ್ನು ಇಡಿ.</string>
+    <string name="fingerprint_acquired_too_fast">ಹೆಚ್ಚು ಕಾಲ ಇಟ್ಟುಕೊಂಡಿರಿ\nನಿಮಗೆ ಕಂಪನದ ಭಾವ ಮೂಡುವವರೆಗೆ ನಿಮ್ಮ ಬೆರಳನ್ನು ಸೆನ್ಸರ್ ಮೇಲೆ ಇಟ್ಟುಕೊಂಡಿರಿ.</string>
+    <string name="immersive_cling_description">ನಿರ್ಗಮಿಸಲು, ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
+    <string name="low_internal_storage_view_text">ದಯವಿಟ್ಟು ಸಂಗ್ರಹಣೆಯನ್ನು ತಕ್ಷಣವೇ ತೆರವುಗೊಳಿಸಿ, ಇಲ್ಲದಿದ್ದರೆ ಸಾಧನವು ಅಸಹಜವಾಗಿ ಕೆಲಸ ಮಾಡಬಹುದು</string>
+</resources>

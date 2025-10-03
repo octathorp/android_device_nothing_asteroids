@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Verschmutzung erkannt\nReinige deinen Finger oder den Bildschirm.</string>
+    <string name="fingerprint_acquired_insufficient">Decke den Sensor ab\nLege deinen Finger beim Tippen über den gesamten Sensor.</string>
+    <string name="fingerprint_acquired_partial">Decke den Sensor ab\nLege deinen Finger beim Tippen über den gesamten Sensor.</string>
+    <string name="fingerprint_acquired_too_fast">Länger halten\nBleibe mit dem Finger auf dem Sensor, bis du eine Vibration spürst.</string>
+    <string name="immersive_cling_description">Zum Beenden von oben nach unten wischen</string>
+    <string name="low_internal_storage_view_text">Bitte leeren Sie sofort den Speicher, da das Gerät sonst möglicherweise nicht ordnungsgemäß funktioniert</string>
+</resources>

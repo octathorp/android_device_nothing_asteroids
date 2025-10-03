@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Podignite prst</item>
+        <item>Prilagodite prst\nLagano prilagodite prst kako bi se snimila druga strana.</item>
+        <item>Otisak prsta već je spremljen\nSličan otisak prsta već je spremljen. Pokušajte ponovno s drugim prstom.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+        <item>Prst nije valjan\nOtkriveni otisak prsta ne može se upotrijebiti za otključavanje. Pokušajte ponovno. Ako se pogreška i dalje pojavljuje, obratite se korisničkoj podršci.</item>
+    </array>
+</resources>

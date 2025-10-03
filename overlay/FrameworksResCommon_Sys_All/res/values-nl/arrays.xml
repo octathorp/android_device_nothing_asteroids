@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Til uw vinger op</item>
+        <item>Verplaats uw vinger\nBeweeg uw vinger een beetje om een andere kant op te nemen.</item>
+        <item>Vingerafdruk al opgeslagen\nEen vergelijkbare vingerafdruk is al opgeslagen. Probeer het opnieuw met een andere vinger.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+        <item>Ongeldige vinger\nDe gedetecteerde vingerafdruk kan niet worden gebruikt voor ontgrendeling. Probeer het opnieuw. Als deze fout zich blijft voordoen, neem dan contact op met de klantenondersteuning.</item>
+    </array>
+</resources>

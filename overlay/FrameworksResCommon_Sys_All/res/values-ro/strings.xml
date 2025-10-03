@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Reziduuri detectate\nCurățați degetul sau ecranul.</string>
+    <string name="fingerprint_acquired_insufficient">Acoperiți senzorul\nPlasați degetul peste întregul senzor atunci când atingeți.</string>
+    <string name="fingerprint_acquired_partial">Acoperiți senzorul\nPlasați degetul peste întregul senzor atunci când atingeți.</string>
+    <string name="fingerprint_acquired_too_fast">Mențineți apăsat mai mult timp\nȚineți degetul pe senzor până când simțiți o vibrație.</string>
+    <string name="immersive_cling_description">Pentru a ieși, glisează de sus în jos.</string>
+    <string name="low_internal_storage_view_text">Goliți imediat spațiul de stocare sau dispozitivul poate funcționa anormal</string>
+</resources>

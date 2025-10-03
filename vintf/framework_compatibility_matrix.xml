@@ -1,0 +1,37 @@
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <interface>
+            <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.noth.hardware.charge</name>
+        <interface>
+            <name>ICharge</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.noth.hardware.sensor.sensor_extension</name>
+        <interface>
+            <name>ISensorExtension</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.noth.hardware.stability</name>
+        <interface>
+            <name>IStability</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.noth.hardware.wifi.hostapd</name>
+        <interface>
+            <name>INtHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

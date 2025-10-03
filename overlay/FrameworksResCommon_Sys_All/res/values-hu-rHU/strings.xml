@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Szennyeződés észlelése\nTisztítsa meg az ujját vagy a képernyőt.</string>
+    <string name="fingerprint_acquired_insufficient">Fedje le az érzékelőt\nTakarja el az ujjával a teljes érzékelőt, amikor megérinti.</string>
+    <string name="fingerprint_acquired_partial">Fedje le az érzékelőt\nTakarja el az ujjával a teljes érzékelőt, amikor megérinti.</string>
+    <string name="fingerprint_acquired_too_fast">Tartsa lenyomva tovább\nTartsa az ujját az érzékelőn, amíg rezgést nem érez.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Установено е замърсяване\nПочистете пръста си или екрана.</string>
+    <string name="fingerprint_acquired_insufficient">Покрийте датчика\nПоставете пръст върху целия датчик, когато докосвате.</string>
+    <string name="fingerprint_acquired_partial">Покрийте датчика\nПоставете пръст върху целия датчик, когато докосвате.</string>
+    <string name="fingerprint_acquired_too_fast">Задръжте по-дълго\nЗадръжте пръст на датчика, докато усетите вибрация.</string>
+    <string name="immersive_cling_description">За изход плъзнете пръст надолу от горната част.</string>
+    <string name="low_internal_storage_view_text">Моля, незабавно освободете памет или устройството може да не работи нормално</string>
+</resources>

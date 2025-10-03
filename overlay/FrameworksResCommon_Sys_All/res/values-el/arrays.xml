@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Σηκώστε το δάχτυλό σας</item>
+        <item>Προσαρμόστε το δάχτυλό σας\nΠροσαρμόστε ελαφρώς το δάχτυλό σας, για να καταγραφεί διαφορετική πλευρά.</item>
+        <item>Το δακτυλικό αποτύπωμα έχει ήδη αποθηκευτεί\nΈχει ήδη αποθηκευτεί ένα παρόμοιο δακτυλικό αποτύπωμα Προσπαθήστε ξανά με άλλο δάχτυλο.</item>
+        <item>Μη έγκυρο δάχτυλο\nΔεν ήταν δυνατή η χρήση του δακτυλικού αποτυπώματος που εντοπίστηκε για ξεκλείδωμα. Προσπαθήστε ξανά. Αν το πρόβλημα εξακολουθεί να παρουσιάζεται, επικοινωνήστε με την υποστήριξη πελατών.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+    </array>
+</resources>

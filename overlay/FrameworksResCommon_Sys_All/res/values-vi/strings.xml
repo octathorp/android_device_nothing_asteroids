@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Phát hiện bụi bẩn\nLàm sạch ngón tay của bạn hoặc màn hình.</string>
+    <string name="fingerprint_acquired_insufficient">Che cảm biến\nĐặt ngón tay của bạn lên toàn bộ cảm biến khi chạm.</string>
+    <string name="fingerprint_acquired_partial">Che cảm biến\nĐặt ngón tay của bạn lên toàn bộ cảm biến khi chạm.</string>
+    <string name="fingerprint_acquired_too_fast">Giữ lâu hơn\nGiữ ngón tay của bạn trên cảm biến cho đến khi thấy rung.</string>
+    <string name="immersive_cling_description">Để thoát, hãy vuốt từ trên cùng xuống dưới.</string>
+    <string name="low_internal_storage_view_text">Hãy xóa bộ nhớ lưu trữ ngay lập tức nếu không thiết bị có thể hoạt động bất thường</string>
+</resources>

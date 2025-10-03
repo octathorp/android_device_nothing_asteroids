@@ -1,0 +1,15 @@
+diff --git a/ipacm/Android.bp b/ipacm/Android.bp
+index 80a8c2e7..2f91d360 100644
+--- a/ipacm/Android.bp
++++ b/ipacm/Android.bp
+@@ -6,6 +6,10 @@ cc_binary {
+     header_libs: ["device_kernel_headers"]+["qti_kernel_headers",
+ 	"libutils_headers", "libcutils_headers"],
+ 
++    include_dirs: [
++        "kernel/nothing/sm7635-modules/qcom/opensource/dataipa/drivers/platform/msm/include/uapi",
++    ],
++
+     cflags: ["-DFEATURE_IPA_ANDROID"] + ["-DFEATURE_IPACM_RESTART"] + [
+         "-DFEATURE_IPACM_AIDL",
+         "-Wall",

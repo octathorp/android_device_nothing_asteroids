@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Zaznana je umazanija\nOčistite prst ali zaslon.</string>
+    <string name="fingerprint_acquired_insufficient">Pokrijte senzor\nKo tapnete, položite prst na celoten senzor.</string>
+    <string name="fingerprint_acquired_partial">Pokrijte senzor\nKo tapnete, položite prst na celoten senzor.</string>
+    <string name="fingerprint_acquired_too_fast">Pridržite dlje časa\nDržite prst na senzorju, dokler ne začutite vibriranja.</string>
+    <string name="immersive_cling_description">Zaprete ga tako, da z vrha s prstom povlečete navzdol.</string>
+    <string name="low_internal_storage_view_text">Takoj počistite shrambo, drugače lahko naprava deluje nepravilno</string>
+</resources>

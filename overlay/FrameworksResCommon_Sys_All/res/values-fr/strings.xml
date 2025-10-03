@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Poussière détectée\nNettoyez votre doigt ou l\'écran.</string>
+    <string name="fingerprint_acquired_insufficient">Couvrir le capteur\nPlacez votre doigt sur l\'ensemble du capteur lorsque vous tapez.</string>
+    <string name="fingerprint_acquired_partial">Couvrir le capteur\nPlacez votre doigt sur l\'ensemble du capteur lorsque vous tapez.</string>
+    <string name="fingerprint_acquired_too_fast">Maintenir\nMaintenez votre doigt sur le capteur jusqu\'à ce que vous sentiez une vibration.</string>
+    <string name="immersive_cling_description">Pour quitter, balayez l\'écran du haut vers le bas.</string>
+    <string name="low_internal_storage_view_text">Veuillez effacer le stockage immédiatement ou l\'appareil pourrait fonctionner de manière anormale</string>
+</resources>

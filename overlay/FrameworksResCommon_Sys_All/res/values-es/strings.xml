@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Suciedad detectada\nLímpiate el dedo o limpia la pantalla.</string>
+    <string name="fingerprint_acquired_insufficient">Cubre el sensor\nColoca el dedo sobre todo el sensor al pulsar.</string>
+    <string name="fingerprint_acquired_partial">Cubre el sensor\nColoca el dedo sobre todo el sensor al pulsar.</string>
+    <string name="fingerprint_acquired_too_fast">Mantener más tiempo\nMantén el dedo en el sensor hasta que sientas una vibración.</string>
+    <string name="immersive_cling_description">Para salir, desliza el dedo de arriba abajo.</string>
+    <string name="low_internal_storage_view_text">Borre el almacenamiento inmediatamente o el dispositivo podría funcionar de forma anormal</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Zvedněte prst</item>
+        <item>Změňte polohu prstu\nMírnou změnou polohy prstu umožněte sejmutí z jiné strany.</item>
+        <item>Otisk prstu je již uložen\nPodobný otisk prstu je již uložen. Zkuste to znovu s jiným prstem.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+        <item>Neplatný prst\nZjištěný otisk prstu nelze použít k odemykání. Zkuste to znovu. Pokud problém trvá, obraťte se na podporu zákazníků.</item>
+    </array>
+</resources>

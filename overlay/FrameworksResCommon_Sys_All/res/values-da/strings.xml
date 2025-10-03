@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Smuds registreret\nFingeren skal være ren, eller skærmen skal rengøres.</string>
+    <string name="fingerprint_acquired_insufficient">Dæk sensoren\nDu skal sætte fingeren på sensoren og dække den helt, når du trykker.</string>
+    <string name="fingerprint_acquired_partial">Dæk sensoren\nDu skal sætte fingeren på sensoren og dække den helt, når du trykker.</string>
+    <string name="fingerprint_acquired_too_fast">Hold længere\nDu skal holde fingeren på sensoren, indtil du kan mærke vibrering.</string>
+    <string name="immersive_cling_description">Stryg ned fra toppen for at afslutte.</string>
+    <string name="low_internal_storage_view_text">Skaf omgående lagerplads ved at slette emner. Ellers kan det påvirke enhedens funktion</string>
+</resources>

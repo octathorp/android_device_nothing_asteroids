@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Levanta el dedo</item>
+        <item>Ajusta el dedo\nAjusta el dedo ligeramente para grabar un lado diferente.</item>
+        <item>Huella digital ya guardada\nYa hay una huella digital similar guardada. Inténtalo de nuevo con otro dedo.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+        <item>Dedo incorrecto\nLa huella digital detectada no pudo utilizarse para el desbloqueo, inténtalo de nuevo. Si este error persiste, comunícate con el servicio de atención al cliente.</item>
+    </array>
+</resources>

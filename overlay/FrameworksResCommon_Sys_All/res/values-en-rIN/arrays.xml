@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Lift your finger</item>
+        <item>Adjust your finger\nAdjust your finger slightly to record a different side.</item>
+        <item>Fingerprint already saved\nA similar fingerprint is already saved. Please try again with another finger.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+        <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
+    </array>
+</resources>

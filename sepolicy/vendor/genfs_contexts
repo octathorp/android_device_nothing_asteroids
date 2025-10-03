@@ -1,0 +1,24 @@
+# Charger
+genfscon sysfs /class/qcom-battery/scenario_fcc         u:object_r:vendor_sysfs_usb_supply:s0
+genfscon sysfs /class/qcom-battery/wireless_boost_en    u:object_r:vendor_sysfs_wireless:s0
+genfscon sysfs /class/qcom-battery/wls_reverse_status   u:object_r:vendor_sysfs_wireless:s0
+
+# Display
+genfscon sysfs /panel_feature/hbm_mode  u:object_r:vendor_sysfs_graphics:s0
+
+# Fingerprint
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/force_fod_ui     u:object_r:vendor_sysfs_fingerprint:s0
+
+# Gestures
+genfscon sysfs /devices/platform/goodix_ts.0/fp_state           u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/goodix_ts.0/single_tap         u:object_r:vendor_sysfs_sensors:s0
+
+# Vibrator
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-3/3-005a/leds/aw_vibrator      u:object_r:sysfs_vibrator:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-3/3-005a/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/994000.i2c/i2c-0/0-003a/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a600000.ssusb/a600000.dwc3/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:goodix_fp@0/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/input/input4/wakeup u:object_r:sysfs_wakeup:s0

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Konstatēti netīrumi\nNotīriet pirkstu vai ekrānu.</string>
+    <string name="fingerprint_acquired_insufficient">Aizsedziet sensoru\nSkāriena laikā novietojiet pirkstu uz visa sensora.</string>
+    <string name="fingerprint_acquired_partial">Aizsedziet sensoru\nSkāriena laikā novietojiet pirkstu uz visa sensora.</string>
+    <string name="fingerprint_acquired_too_fast">Turiet ilgāk\nTuriet pirkstu uz sensora, līdz sajūtat vibrāciju.</string>
+    <string name="immersive_cling_description">Lai izietu, no augšdaļas velciet lejup.</string>
+    <string name="low_internal_storage_view_text">Lūdzu, nekavējoties iztīriet krātuvi, jo pretējā gadījumā ierīce var darboties nepareizi</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Kotoran terdeteksi\nBersihkan jari Anda atau layar.</string>
+    <string name="fingerprint_acquired_insufficient">Tutupi sensor\nLetakkan jari Anda di atas sensor sepenuhnya saat mengetuk.</string>
+    <string name="fingerprint_acquired_partial">Tutupi sensor\nLetakkan jari Anda di atas sensor sepenuhnya saat mengetuk.</string>
+    <string name="fingerprint_acquired_too_fast">Tahan lebih lama\nLetakkan jari Anda di atas sensor hingga merasakan getaran.</string>
+    <string name="immersive_cling_description">Untuk keluar, geser layar ke bawah dari atas.</string>
+    <string name="low_internal_storage_view_text">Segera hapus penyimpanan atau perangkat mungkin berfungsi tidak normal</string>
+</resources>

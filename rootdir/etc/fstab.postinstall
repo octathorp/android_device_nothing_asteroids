@@ -1,0 +1,4 @@
+system                    /postinstall ext4   ro,nosuid,nodev,noexec  slotselect_other,logical
+/dev/block/by-name/system /postinstall ext4   ro,nosuid,nodev,noexec  slotselect_other
+/dev/block/mapper/system /postinstall ext4   ro,nosuid,nodev,noexec  slotselect_other
+

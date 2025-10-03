@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Angkat jari Anda</item>
+        <item>Sesuaikan jari Anda\nUbah sedikit posisi jari Anda untuk merekam sisi yang berbeda.</item>
+        <item>Sidik jari sudah tersimpan\nSidik jari yang serupa sudah tersimpan. Silakan coba lagi dengan jari lain.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+        <item>Jari tidak valid\nSidik jari yang terdeteksi tidak dapat digunakan untuk membuka kunci, silakan coba lagi. Jika kesalahan masih berlanjut, silakan hubungi dukungan pelanggan.</item>
+    </array>
+</resources>

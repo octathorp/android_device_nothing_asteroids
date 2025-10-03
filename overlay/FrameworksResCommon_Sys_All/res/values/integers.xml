@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_chargingFastThreshold">14900000</integer>
+    <integer name="config_defaultNightMode">2</integer>
+    <integer name="config_faceMaxTemplatesPerUser">2</integer>
+    <integer name="config_navBarInteractionMode">2</integer>
+    <integer name="config_shutdownBatteryTemperature">600</integer>
+    <integer name="device_idle_idle_after_inactive_to_ms">15000</integer>
+    <integer name="device_idle_idle_to_ms">3600000</integer>
+    <integer name="device_idle_inactive_to_ms">15000</integer>
+    <integer name="device_idle_light_max_idle_to_ms">900000</integer>
+    <integer name="device_idle_locating_to_ms">15000</integer>
+    <integer name="device_idle_motion_inactive_to_ms">30000</integer>
+    <integer name="device_idle_sensing_to_ms">15000</integer>
+</resources>

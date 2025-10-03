@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Pakelkite pirštą</item>
+        <item>Pakoreguokite piršto padėtį\nŠiek tiek pakoreguokite piršto padėtį, kad būtų įrašyta kita pusė.</item>
+        <item>Piršto atspaudas jau įrašytas\nPanašus piršto atspaudas jau įrašytas. Bandykite dar kartą naudodami kitą pirštą.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+        <item>Netinkamas piršto atspaudas\nAptikto piršto atspaudo negalima naudoti atrakinant. Bandykite dar kartą. Jei ši klaida išlieka, susisiekite su klientų aptarnavimo tarnyba.</item>
+    </array>
+</resources>

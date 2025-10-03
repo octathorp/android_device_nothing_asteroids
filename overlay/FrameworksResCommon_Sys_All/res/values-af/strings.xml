@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Vuilheid opgetel\nMaak jou vinger of die skerm skoon.</string>
+    <string name="fingerprint_acquired_insufficient">Bedek die sensor\nPlaas jou vinger oor die hele sensor wanneer jy dit tik.</string>
+    <string name="fingerprint_acquired_partial">Bedek die sensor\nPlaas jou vinger oor die hele sensor wanneer jy dit tik.</string>
+    <string name="fingerprint_acquired_too_fast">Hou langer\nHou jou vinger op die sensor totdat jy \'n vibrasie voel.</string>
+</resources>

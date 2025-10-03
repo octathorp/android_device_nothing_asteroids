@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Выяўлены бруд\nАчысціце палец або экран.</string>
+    <string name="fingerprint_acquired_insufficient">Закрыйце значок сканера\nЦалкам закрывайце падушачкай пальца значок сканера, дакранаецеся</string>
+    <string name="fingerprint_acquired_partial">Закрыйце значок сканера\nЦалкам закрывайце падушачкай пальца значок сканера, дакранаецеся</string>
+    <string name="fingerprint_acquired_too_fast">Трымайце даўжэй\nУтрымлівайце палец на сканеры, пакуль не адчуеце вібрацыю.</string>
+    <string name="immersive_cling_description">Для выхаду правядзіце зверху ўніз.</string>
+    <string name="low_internal_storage_view_text">Неадкладна ачысціце сховішча, інакш прылада можа працаваць няправільна</string>
+</resources>

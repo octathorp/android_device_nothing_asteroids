@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Aptikta nešvarumų\nNuvalykite pirštą arba ekraną.</string>
+    <string name="fingerprint_acquired_insufficient">Uždenkite jutiklį\nLieskite uždėję pirštą ant viso jutiklio.</string>
+    <string name="fingerprint_acquired_partial">Uždenkite jutiklį\nLieskite uždėję pirštą ant viso jutiklio.</string>
+    <string name="fingerprint_acquired_too_fast">Palaikykite ilgiau\nLaikykite pirštą ant jutiklio, kol pajusite vibraciją.</string>
+    <string name="immersive_cling_description">Jei norite išeiti, perbraukite žemyn iš viršaus.</string>
+    <string name="low_internal_storage_view_text">Nedelsdami ištuštinkite saugyklą, kitaip įrenginys gali veikti nenormaliai</string>
+</resources>

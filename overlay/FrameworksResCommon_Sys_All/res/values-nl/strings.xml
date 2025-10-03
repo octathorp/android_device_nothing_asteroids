@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Vuil gedetecteerd\nReinig uw vinger of het scherm.</string>
+    <string name="fingerprint_acquired_insufficient">Bedek de sensor\nPlaats uw vinger over de gehele sensor wanneer u tikt.</string>
+    <string name="fingerprint_acquired_partial">Bedek de sensor\nPlaats uw vinger over de gehele sensor wanneer u tikt.</string>
+    <string name="fingerprint_acquired_too_fast">Houd langer vast\nHoud uw vinger op de sensor totdat u een trilling voelt.</string>
+    <string name="immersive_cling_description">Swipe omlaag vanaf de bovenkant van het scherm om af te sluiten.</string>
+    <string name="low_internal_storage_view_text">Maak het geheugen onmiddellijk leeg, anders werkt het apparaat mogelijk niet normaal</string>
+</resources>

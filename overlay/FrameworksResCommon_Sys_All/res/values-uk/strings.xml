@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Виявлено забруднення\nОчистьте палець або екран.</string>
+    <string name="fingerprint_acquired_insufficient">Закрийте датчик\nКоли торкаєтеся, покладіть палець повністю на сенсор.</string>
+    <string name="fingerprint_acquired_partial">Закрийте датчик\nКоли торкаєтеся, покладіть палець повністю на сенсор.</string>
+    <string name="fingerprint_acquired_too_fast">Тримайте довше\nТримайте палець на датчику, доки не відчуєте вібрацію.</string>
+    <string name="immersive_cling_description">Щоб вийти, проведіть пальцем зверху вниз.</string>
+    <string name="low_internal_storage_view_text">Негайно звільніть місце в сховищі, інакше пристрій може працювати неправильно.</string>
+</resources>

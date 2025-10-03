@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">അഴുക്ക് കണ്ടെത്തിയിരിക്കുന്നു\nനിങ്ങളുടെ വിരലോ സ്ക്രീനോ വൃത്തിയാക്കുക.</string>
+    <string name="fingerprint_acquired_insufficient">സെൻസർ മൂടുക\nടാപ്പ് ചെയ്യുമ്പോൾ മുഴുവൻ സെൻസറിലും നിങ്ങളുടെ വിരൽ വയ്ക്കുക.</string>
+    <string name="fingerprint_acquired_partial">സെൻസർ മൂടുക\nടാപ്പ് ചെയ്യുമ്പോൾ മുഴുവൻ സെൻസറിലും നിങ്ങളുടെ വിരൽ വയ്ക്കുക.</string>
+    <string name="fingerprint_acquired_too_fast">കൂടുതൽ നേരം പിടിക്കുക\nനിങ്ങൾക്ക് ഒരു വൈബ്രേഷൻ അനുഭവപ്പെടുന്നത് വരെ സെൻസറിൽ വിരൽ വയ്ക്കുക.</string>
+    <string name="immersive_cling_description">അവസാനിപ്പിക്കാൻ, മുകളിൽ നിന്ന് താഴോട്ട് സ്വൈപ്പ് ചെയ്യുക.</string>
+    <string name="low_internal_storage_view_text">സ്‌റ്റോറേജ് ഉടനടി മായ്‌ക്കുക, അല്ലാത്തപക്ഷം ഉപകരണം അസാധാരണമായി പ്രവർത്തിച്ചേക്കാം</string>
+</resources>

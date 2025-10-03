@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessShortTermModelTimeout">120000</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureDefault">6500</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureMax">6800</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureMin">5400</integer>
+    <integer name="config_displayWhiteBalanceTransitionTimeDecrease">3000</integer>
+    <integer name="config_displayWhiteBalanceTransitionTimeIncrease">3000</integer>
+    <integer name="config_nightDisplayColorTemperatureDefault">4130</integer>
+    <integer name="config_nightDisplayColorTemperatureMax">5000</integer>
+    <integer name="config_nightDisplayColorTemperatureMin">4000</integer>
+    <integer name="config_reduceBrightColorsStrengthDefault">25</integer>
+    <integer name="config_reduceBrightColorsStrengthMax">60</integer>
+    <integer name="config_reduceBrightColorsStrengthMin">25</integer>
+</resources>

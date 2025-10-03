@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Smuts påträffades\nRengör fingret eller skärmen.</string>
+    <string name="fingerprint_acquired_insufficient">Täck sensorn\nPlacera fingret ovanpå hela sensorn när du trycker.</string>
+    <string name="fingerprint_acquired_partial">Täck sensorn\nPlacera fingret ovanpå hela sensorn när du trycker.</string>
+    <string name="fingerprint_acquired_too_fast">Håll kvar längre\nHåll kvar fingret på sensorn tills du känner en vibration.</string>
+    <string name="immersive_cling_description">Svep nedåt från skärmens överkant för att avsluta.</string>
+    <string name="low_internal_storage_view_text">Rensa lagringsutrymme omedelbart annars kanske enheten kommer fungera onormalt</string>
+</resources>

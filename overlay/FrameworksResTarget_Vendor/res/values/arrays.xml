@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+        <item>/vendor/lib64/libipebpsstriping.so</item>
+        <item>/vendor/lib64/camera/components/com.qti.stats.hafoverride.so</item>
+        <item>/vendor/lib64/camera/components/com.qti.stats.pdlib.so</item>
+        <item>/vendor/lib64/camera/components/com.qti.stats.aecxcore.so</item>
+        <item>/vendor/lib64/camera/components/com.qti.stats.afc.so</item>
+        <item>/vendor/lib64/libcamxtintlessalgo.so</item>
+        <item>/vendor/lib64/libtfestriping.so</item>
+        <item>/vendor/lib64/libipebpsstriping.so</item>
+        <item>/vendor/lib64/libjpege.so</item>
+        <item>/vendor/lib64/libllvm-qcom.so</item>
+        <item>/vendor/lib64/libwa_sat.so</item>
+        <item>/vendor/lib64/libvega_common.so</item>
+        <item>/vendor/lib64/com.vidhance.node.gme.so</item>
+        <item>/vendor/lib64/com.vidhance.node.preview.so</item>
+        <item>/vendor/lib64/com.vidhance.node.video.so</item>
+        <item>/vendor/lib64/com.qti.feature2.hdr.so</item>
+        <item>/vendor/lib64/com.qti.feature2.rawhdr.so</item>
+        <item>/vendor/lib64/libarcsoft_tfe_hdr.so</item>
+        <item>/vendor/lib64/libarcsoft_tfe_hdr_front.so</item>
+    </array>
+</resources>

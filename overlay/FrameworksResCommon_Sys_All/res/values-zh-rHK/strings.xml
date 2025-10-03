@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">檢測到灰塵\n請清潔手指或螢幕。</string>
+    <string name="fingerprint_acquired_insufficient">觸按指紋感應器\n觸按時將手指平放在整個感應器上。</string>
+    <string name="fingerprint_acquired_partial">觸按指紋感應器\n觸按時將手指平放在整個感應器上。</string>
+    <string name="fingerprint_acquired_too_fast">保持觸按\n將手指平放在感應器上，感覺到振動後再移開。</string>
+    <string name="immersive_cling_description">由頂部向下滑動即可退出。</string>
+    <string name="low_internal_storage_view_text">請立刻清除儲存空間，否則無法正常使用裝置</string>
+</resources>

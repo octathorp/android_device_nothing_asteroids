@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Smuss oppdaget\nRengjør fingeren eller skjermen.</string>
+    <string name="fingerprint_acquired_insufficient">Dekk sensoren\nPass på at fingeren dekker hele sensoren når du trykker.</string>
+    <string name="fingerprint_acquired_partial">Dekk sensoren\nPass på at fingeren dekker hele sensoren når du trykker.</string>
+    <string name="fingerprint_acquired_too_fast">Hold lenger\nHold fingeren på sensoren til du kjenner vibrering.</string>
+</resources>

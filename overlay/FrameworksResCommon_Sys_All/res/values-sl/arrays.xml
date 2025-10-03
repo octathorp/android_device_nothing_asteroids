@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Dvignite prst</item>
+        <item>Prilagodite prst\nČe želite zabeležiti še drugo stran, nekoliko prilagodite prst.</item>
+        <item>Prstni odtis je že shranjen\nPodoben prstni odtis je že shranjen. Poskusite znova z drugim prstom.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+        <item>Neveljaven prst\nZaznanega prstnega odtisa ni bilo mogoče uporabiti za odklepanje, poskusite znova. Če težave ne odpravite, se obrnite na podporo za stranke.</item>
+    </array>
+</resources>

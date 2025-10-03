@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Nosta sormea</item>
+        <item>Säädä sormen paikkaa\nSäädä sormen paikkaa hieman toisen puolen tallentamiseksi.</item>
+        <item>Sormenjälki jo tallennettu\nSamanlainen sormenjälki on jo tallennettu. Yritä uudelleen eri sormella.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+        <item>Sormi ei kelpaa\nHavaittua sormea ei voitu käyttää lukituksen avaamiseen, yritä uudelleen Jos tämä virhe jatkuu, ota yhteys asiakastukeen.</item>
+    </array>
+</resources>

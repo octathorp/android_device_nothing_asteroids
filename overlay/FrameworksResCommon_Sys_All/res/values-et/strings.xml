@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">Tuvastatud mustus\nPuhastage sõrm või ekraan.</string>
+    <string name="fingerprint_acquired_insufficient">Anduri kinnikatmine\nPuudutades asetage sõrm andurile, nii et see kataks anduri üleni kinni.</string>
+    <string name="fingerprint_acquired_partial">Anduri kinnikatmine\nPuudutades asetage sõrm andurile, nii et see kataks anduri üleni kinni.</string>
+    <string name="fingerprint_acquired_too_fast">Hoidke kauem\nHoidke sõrme anduril, kuni tunnete vibreerimist.</string>
+    <string name="immersive_cling_description">Väljumiseks pühkige ülevalt alla.</string>
+    <string name="low_internal_storage_view_text">Tühjendage salvestusruum kohe, muidu võib seade töötada ebatavaliselt</string>
+</resources>

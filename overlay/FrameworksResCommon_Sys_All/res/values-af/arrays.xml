@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAG_VINGERINVOER</item>
+        <item>VINGERSKUIF_AF</item>
+        <item>VINGERSKUIF_OP</item>
+        <item>Tel jou vinger op</item>
+        <item>Verstel jou vinger\nVerstel jou vinger \'n bietjie om \'n ander kant op te neem.</item>
+        <item>Vingerafdruk reeds gestoor\n\'n Soortgelyke vingerafdrik reeds gestoor. Probeer weer met \'n ander vinger.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+        <item>Ongeldige vinger\nDie vingerafdruk kon nie gebruik word vir ontsluting nie, probeer asseblief weer indien hierdie fout voortgaan, kontak kliëntediens asseblief.</item>
+    </array>
+</resources>

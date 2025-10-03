@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_wifi6ghzSupport">false</bool>
+    <bool name="config_wifiAllowInsecureEnterpriseConfigurationsForSettingsAndSUW">true</bool>
+    <bool name="config_wifiBridgedSoftApSupported">true</bool>
+    <bool name="config_wifiSoftap6ghzSupported">false</bool>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_buttonTextAllCaps">false</bool>
+    <bool name="config_defaultRingtonePickerEnabled">false</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dreamsEnabledByDefault">false</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_faceAuthDismissesKeyguard">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+    <bool name="config_useRoundIcon">true</bool>
+    <bool name="config_voice_data_sms_auto_fallback">true</bool>
+    <bool name="device_idle_light_idle_increase_linearly">false</bool>
+</resources>

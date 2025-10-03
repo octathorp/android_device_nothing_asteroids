@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">धूळ आढळली\nतुमची स्क्रीन अथवा बोट साफ करा.</string>
+    <string name="fingerprint_acquired_insufficient">सेन्सर कव्हर करा\nटॅप करत असताना तुमचे बोट पूर्ण सेन्सरवर ठेवा.</string>
+    <string name="fingerprint_acquired_partial">सेन्सर कव्हर करा\nटॅप करत असताना तुमचे बोट पूर्ण सेन्सरवर ठेवा.</string>
+    <string name="fingerprint_acquired_too_fast">अजून थोडा वेळ धरा\nतुम्हाला व्हायब्रेशन जाणवेपर्यंत तुमचे बोट सेन्सरवर ठेवा.</string>
+    <string name="immersive_cling_description">बाहेर पडण्यासाठी, वरून खाली स्वाइप करा.</string>
+    <string name="low_internal_storage_view_text">कृपया स्टोरेज लगेच साफ करा अन्यथा डिव्हाइस असामान्यपणे कार्य करू शकते</string>
+</resources>

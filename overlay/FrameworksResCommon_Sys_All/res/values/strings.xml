@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_defaultSms">com.google.android.apps.messaging</string>
+    <string name="config_dozeTapSensorType">com.google.sensor.single_touch</string>
+    <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="fingerprint_acquired_imager_dirty">Dirt detected\nClean your finger or the screen.</string>
+    <string name="fingerprint_acquired_insufficient">Cover the sensor\nPlace your finger over the entire sensor when tapping.</string>
+    <string name="fingerprint_acquired_partial">Cover the sensor\nPlace your finger over the entire sensor when tapping.</string>
+    <string name="fingerprint_acquired_too_fast">Hold longer\nKeep your finger on the sensor until you feel a vibration.</string>
+    <string name="immersive_cling_description">To exit, swipe down from the top.</string>
+    <string name="low_internal_storage_view_text">Please clear storage, otherwise device may not run regularly</string>
+</resources>

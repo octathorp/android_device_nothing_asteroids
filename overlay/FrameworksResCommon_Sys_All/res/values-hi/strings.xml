@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">गंदगी का पता चला\nअपनी उंगली या स्क्रीन को साफ करें.</string>
+    <string name="fingerprint_acquired_insufficient">सेंसर को कवर करें\nटैप करते समय अपनी उंगली पूरे सेंसर पर रखें.</string>
+    <string name="fingerprint_acquired_partial">सेंसर को कवर करें\nटैप करते समय अपनी उंगली पूरे सेंसर पर रखें.</string>
+    <string name="fingerprint_acquired_too_fast">अधिक समय तक पकड़ें\nअपनी उंगली को सेंसर पर तब तक रखें जब तक आप एक कंपन महसूस न करें.</string>
+    <string name="immersive_cling_description">बाहर निकलने के लिए, ऊपर से नीचे स्वा‍इप करें.</string>
+    <string name="low_internal_storage_view_text">कृपया स्टोरेज तुरंत साफ़ करें अन्यथा डिवाइस असामान्य रूप से काम कर सकता है</string>
+</resources>

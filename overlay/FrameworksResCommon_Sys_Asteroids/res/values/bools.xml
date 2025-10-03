@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_displayWhiteBalanceAvailable">true</bool>
+    <bool name="config_displayWhiteBalanceEnabledDefault">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+</resources>

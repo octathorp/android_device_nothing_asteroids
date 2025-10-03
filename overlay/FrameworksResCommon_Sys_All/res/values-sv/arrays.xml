@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Lyft fingret</item>
+        <item>Justera fingret\nJustera fingret något för att registrera en annan sida.</item>
+        <item>Fingeravtrycket har redan sparats\nEtt liknande fingeravtryck har redan sparats. Försök igen med ett annat finger.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+        <item>Ogiltigt finger\nDet identifierade fingeravtrycket kunde inte användas för att låsa upp enheten. Försök igen. Kontakta kundsupport om felet kvarstår.</item>
+    </array>
+</resources>

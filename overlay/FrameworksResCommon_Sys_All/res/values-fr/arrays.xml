@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Levez votre doigt</item>
+        <item>Bougez votre doigt\nBougez légèrement votre doigt pour enregistrer un angle différent.</item>
+        <item>Empreinte digitale déjà enregistrée\nUne empreinte digitale similaire est déjà enregistrée. Veuillez réessayer avec un autre doigt.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+        <item>Doigt non valide\nL\'empreinte digitale détectée n\'a pas pu être utilisée pour le déverrouillage, veuillez réessayer. Si cette erreur persiste, veuillez contacter l\'assistance client.</item>
+    </array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Emelje fel az ujját</item>
+        <item>Igazítsa az ujját\nIgazítsa kissé az ujját másik oldal rögzítéséhez.</item>
+        <item>Már mentett ujjlenyomat\nEgy hasonló ujjlenyomat már el van mentve. Kérjük, próbálja újra másik ujjával.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+        <item>Érvénytelen ujj\nAz érzékelt ujjlenyomat nem használható a feloldáshoz, kérjük, próbálja meg újra. Ha ez a hiba továbbra is fennáll, kérjük, forduljon az ügyfélszolgálathoz.</item>
+    </array>
+</resources>

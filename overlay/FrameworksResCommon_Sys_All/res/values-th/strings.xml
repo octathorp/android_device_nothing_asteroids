@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">ตรวจพบสิ่งสกปรก\nทำความสะอาดนิ้วหรือหน้าจอของคุณ</string>
+    <string name="fingerprint_acquired_insufficient">ปิดเซ็นเซอร์\nวางนิ้วของคุณเหนือเซ็นเซอร์ทั้งหมดเมื่อแตะ</string>
+    <string name="fingerprint_acquired_partial">ปิดเซ็นเซอร์\nวางนิ้วของคุณเหนือเซ็นเซอร์ทั้งหมดเมื่อแตะ</string>
+    <string name="fingerprint_acquired_too_fast">กดค้างไว้นานขึ้น\nวางนิ้วของคุณบนเซ็นเซอร์จนกว่าคุณจะรู้สึกถึงการสั่น</string>
+    <string name="immersive_cling_description">หากต้องการออก ให้เลื่อนลงจากด้านบน</string>
+    <string name="low_internal_storage_view_text">โปรดล้างพื้นที่เก็บข้อมูลทันที ไม่เช่นนั้นอุปกรณ์อาจทำงานผิดปกติ</string>
+</resources>

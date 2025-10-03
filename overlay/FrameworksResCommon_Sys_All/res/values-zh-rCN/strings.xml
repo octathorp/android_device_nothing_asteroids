@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty">检测到灰尘\n请清洁手指或屏幕。</string>
+    <string name="fingerprint_acquired_insufficient">盖住传感器\n点击时将手指放在整个传感器上。</string>
+    <string name="fingerprint_acquired_partial">盖住传感器\n点击时将手指放在整个传感器上。</string>
+    <string name="fingerprint_acquired_too_fast">按住久一点\n手指一直放在传感器上，直到感觉到振动。</string>
+    <string name="immersive_cling_description">要退出，请从顶部向下滑动。</string>
+    <string name="low_internal_storage_view_text">请立刻清除存储空间，否则设备无法正常使用</string>
+</resources>

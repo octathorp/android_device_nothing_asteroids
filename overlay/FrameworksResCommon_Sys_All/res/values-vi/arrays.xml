@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item />
+        <item>WAIT_FINGER_INPUT</item>
+        <item>FINGER_DOWN</item>
+        <item>FINGER_UP</item>
+        <item>Nhấc ngón tay lên</item>
+        <item>Điều chỉnh ngón tay của bạn\nĐiều chỉnh ngón tay của bạn một chút để ghi một mặt khác.</item>
+        <item>Vân tay đã được lưu\nMột dấu vân tay tương tự đã được lưu. Vui lòng thử lại với một ngón tay khác.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+        <item>Ngón tay không hợp lệ\nKhông thể sử dụng dấu vân tay đã phát hiện để mở khóa, vui lòng thử lại. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.</item>
+    </array>
+</resources>

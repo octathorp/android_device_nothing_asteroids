@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_wifiSoftap2gChannelList">(N)</string>
+    <string name="config_wifiSoftap5gChannelList">(N)</string>
+    <string name="config_wifiSoftap6gChannelList">(N)</string>
+</resources>
