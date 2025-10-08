@@ -26,11 +26,11 @@ Keep in mind that this information could change without notice.
 | Sensors         |     OK     | Sensors seem to be reporting properly                        |
 | 120Hz refresh   |     OK     | Automatic refresh rate (60-90-120Hz)                         |
 | NFC             |     OK     | Requires further testing, NFC tag recognized properly        |
-| GPS/GNSS        |     ??     | Not tested yet                                               |
-| Haptics         |     NO     | Not working                                                  |
+| GPS/GNSS        |     OK     | Tested with GPS Test, real world testing required            |
+| Haptics         |     OK     | Working, but fine-tuning may be necessary                    |
 | Cameras         |     NO     | Not working                                                  |
 | Fingerprint     |     NO     | Not working                                                  |
-| USB             |     OK     | File transfer (MTP) and ADB working properly                 |
+| USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | Extra key       |     NO     | Not working                                                  |
 
 

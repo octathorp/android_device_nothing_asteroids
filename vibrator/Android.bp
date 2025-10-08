@@ -1,0 +1,37 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "android.hardware.vibrator.service.asteroids",
+    vendor: true,
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-DLOG_TAG=\"android.hardware.vibrator.service.asteroids\"",
+    ],
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.vibrator.service.asteroids.rc"],
+    vintf_fragments: [
+        "android.hardware.vibrator.service.asteroids.xml",
+    ],
+    srcs: [
+        "service.cpp",
+        "Vibrator.cpp",
+    ],
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "liblog",
+        "libbase",
+        "libbinder_ndk",
+        "libaacvibrator",
+        "android.hardware.vibrator-V2-ndk",
+    ],
+}
+
+cc_library_shared {
+    name: "libaacvibrator",
+    soc_specific: true,
+}

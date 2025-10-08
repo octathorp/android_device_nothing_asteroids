@@ -4,6 +4,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/nothing/asteroids",
+    ],
 }
 
 install_symlink {

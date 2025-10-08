@@ -1806,10 +1806,12 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 vendor/bin/ubwcconvert
 vendor/lib64/libubwcp.so
 
-# Vibrator firmware
+# Vibrator
+odm/etc/aac_richtap.config
 vendor/firmware/100_Haptic.bin
 vendor/firmware/101_Haptic.bin
 vendor/firmware/haptic_config.bin
+vendor/lib64/libaacvibrator.so
 
 # VM
 vendor/bin/vmmgr
