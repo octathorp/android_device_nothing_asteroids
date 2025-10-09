@@ -250,6 +250,10 @@ on boot
     chown system system /proc/touchpanel/diff_mode
     chown system system /proc/touchpanel/diff_data
 
+    #Set permissions for double tap to wake
+    chmod 0660 /proc/touchpanel/gesture_mode
+    chown system system /proc/touchpanel/gesture_mode
+
     #Nothing/Support force key warm_reset feature/ARCA-270
     chmod 0660 /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
     chown system system /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
@@ -273,10 +277,6 @@ on property:vendor.display.lcd_density=640
 on property:sys.boot_completed=1
     write /dev/cpuset/background/cpus 0-2
     write /dev/cpuset/system-background/cpus 0-5
-
-#/*Nothing/ change single-click-awake funtion node / ARCA-672*/
-on property:sys.touch.single_en.enable=*
-    write /proc/touchpanel/gesture_mode ${sys.touch.single_en.enable}
 
 on init && property:ro.boot.mode=charger
     wait_for_prop vendor.all.modules.ready 1

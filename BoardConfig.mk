@@ -207,7 +207,7 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Tap to wake
-TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/gesture_mode"
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
