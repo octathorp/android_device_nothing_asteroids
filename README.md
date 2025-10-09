@@ -29,7 +29,7 @@ Keep in mind that this information could change without notice.
 | GPS/GNSS        |     OK     | Tested with GPS Test, real world testing required            |
 | Haptics         |     OK     | Working, but fine-tuning may be necessary                    |
 | Cameras         |     NO     | Not working                                                  |
-| Fingerprint     |     NO     | Not working                                                  |
+| Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | Extra key       |     NO     | Not working                                                  |
 

@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_face_acquire_keyguard_ignorelist">
-        <item>11</item>
-    </array>
-    <array name="config_ntpServers">
-        <item>ntp://time.android.com</item>
-        <item>ntp://pool.ntp.org</item>
-    </array>
-    <array name="config_udfps_enroll_stage_thresholds">
-        <item>0.25</item>
-        <item>0.5</item>
-        <item>0.55</item>
-    </array>
     <array name="fingerprint_acquired_vendor">
         <item />
         <item>WAIT_FINGER_INPUT</item>

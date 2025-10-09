@@ -73,6 +73,9 @@ on init
     chmod 0660 /sys/devices/platform/soc/1d84000.ufshc/auto_hibern8
     start logd
 
+    # Property used for sku specific sysconfig and permissions
+    setprop ro.boot.product.hardware.sku ${ro.boot.hardware.sku}
+
 on early-fs
     start vold
 
@@ -85,6 +88,47 @@ on fs
     mkdir /mnt/vendor/persist/secnvm 0770 system system
     mkdir /mnt/vendor/persist/data 0700 system system
 
+    # wengao.wang add for bokeh #ARCA-569 @{
+    mkdir /mnt/vendor/persist/camera 0777 cameraserver cameraserver
+    # @}
+
+    # Nothing/parse persist/haptic/cali_data to proc/haptic/f0/ARCA-214
+    chmod 0771 /mnt/vendor/persist/haptic
+    chown system system /mnt/vendor/persist/haptic
+    chmod 0771 /mnt/vendor/persist/haptic/cali_data
+    chown system system /mnt/vendor/persist/haptic/cali_data
+    chown system system /sys/class/leds/vibrator_nt/lk_f0
+    chmod 0666 /sys/class/leds/vibrator_nt/lk_f0
+
+# wengao.wang add for bokeh #ARCA-569 @{
+on post-fs-data
+    mkdir /data/vendor/camera 0775 camera camera
+    chmod 0444 /mnt/vendor/persist/camera/bokeh_caldata_uw_persist.bin
+    copy  /mnt/vendor/persist/camera/bokeh_caldata_uw_persist.bin /data/vendor/camera/bokeh_caldata_uw_persist.bin
+    chmod 0444 /data/vendor/camera/bokeh_caldata_uw_persist.bin
+    chown cameraserver audio /data/vendor/camera/bokeh_caldata_uw_persist.bin
+
+    chmod 0444 /mnt/vendor/persist/camera/bokeh_caldata_tele_persist.bin
+    copy /mnt/vendor/persist/camera/bokeh_caldata_tele_persist.bin /data/vendor/camera/bokeh_caldata_tele_persist.bin
+    chmod 0444 /data/vendor/camera/bokeh_caldata_tele_persist.bin
+    chown cameraserver audio /data/vendor/camera/bokeh_caldata_tele_persist.bin
+
+    chmod 0777 /vendor/etc/camera
+    copy /vendor/etc/camera/bokeh_caldata_uw_golden.bin /data/vendor/camera/bokeh_caldata_uw_golden.bin
+    chmod 0444 /data/vendor/camera/bokeh_caldata_uw_golden.bin
+    chown cameraserver audio /data/vendor/camera/bokeh_caldata_uw_golden.bin
+
+    copy /vendor/etc/camera/bokeh_caldata_tele_golden.bin /data/vendor/camera/bokeh_caldata_tele_golden.bin
+    chmod 0444 /data/vendor/camera/bokeh_caldata_tele_golden.bin
+    chown cameraserver audio /data/vendor/camera/bokeh_caldata_tele_golden.bin
+# @}
+# kexin.chen add for gyro_offesrt write back @{
+    symlink /mnt/vendor/persist/sensors/registry/registry/volcano_qrd_ois_manager_0.json.ois_manager_0_platform.ois.fac_cal.bias /data/vendor/camera/ois_gyro_offset
+    chown cameraserver audio /data/vendor/camera/ois_gyro_offset
+
+    #chmod 0666 /data/vendor/camera/volcano_qrd_ois_manager_0.json.ois_manager_0_platform.ois.fac_cal.bias
+
+
 
 on late-fs
     wait_for_prop hwservicemanager.ready true
@@ -95,9 +139,29 @@ on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     # Enable WLAN cold boot calibration
     write /sys/kernel/cnss/fs_ready 1
+    # Nothing/*** add for smartPA calibration ***/
+    chown audio audio /sys/bus/i2c/devices/13-0034/reg
+    chown audio audio /sys/bus/i2c/devices/13-0034/rw
+    chown audio audio /sys/bus/i2c/devices/13-0035/reg
+    chown audio audio /sys/bus/i2c/devices/13-0035/rw
+    chmod 0660 /sys/bus/i2c/devices/13-0034/reg
+    chmod 0660 /sys/bus/i2c/devices/13-0034/rw
+    chmod 0660 /sys/bus/i2c/devices/13-0035/reg
+    chmod 0660 /sys/bus/i2c/devices/13-0035/rw
 
 on early-boot
     verity_update_state
+    #/*Nothing/ add for LED HAL / ARCA-220*/
+    chmod 660 /dev/led_strips
+    chmod 660 /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/dev_color
+    chown system system /dev/led_strips
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/dev_color
+
+    #/*Nothing/ add for LED effect debug /ARCA-221*/
+    chmod 660 /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/operating_mode
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/operating_mode
+    chmod 660 /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/frame_brightness
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/frame_brightness
 
 on boot
     write /dev/cpuset/audio-app/cpus 0-1
@@ -116,6 +180,90 @@ on boot
     chown system /sys/devices/system/cpu/hyp_core_ctl/enable
     chown system /sys/devices/system/cpu/hyp_core_ctl/hcc_min_freq
 
+    # Nothing/parse persist/haptic/cali_data to proc/haptic/f0/ARCA-214
+    chmod 0666 proc/haptic/f0
+    chown system system proc/haptic/f0
+
+    #/*Nothing/ add for fingerprint function / ARCA-7*/
+    chmod 660 /dev/goodix_fp
+    chown system system /dev/goodix_fp
+
+    # LED Node
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/factory_test
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/imax
+    chown system system /sys/devices/platform/soc/8c0000.qcom,qupv3_1_geni_se/880000.i2c/i2c-7/7-003a/leds/aw20036_led/effect
+    chown system system /sys/class/leds/aw20036_led/hwid
+    chmod 664 /sys/class/leds/aw20036_led/hwid
+    chown system system /sys/class/leds/aw20036_led/effect
+    chmod 664 /sys/class/leds/aw20036_led/effect
+    chown system system /sys/class/leds/aw20036_led/all_brightness
+    chmod 220 /sys/class/leds/aw20036_led/all_brightness
+    chown system system /sys/class/leds/aw20036_led/imax
+    chmod 664 /sys/class/leds/aw20036_led/imax
+    chown system system /sys/class/leds/aw20036_led/frame_brightness
+    chmod 220 /sys/class/leds/aw20036_led/frame_brightness
+    chown system system /sys/class/leds/aw20036_led/operating_mode
+    chmod 664 /sys/class/leds/aw20036_led/operating_mode
+    chown system system /sys/class/leds/aw20036_led/all_white_brightness
+    chmod 220 /sys/class/leds/aw20036_led/all_white_brightness
+    chown system system /sys/class/leds/aw20036_led/factory_test
+    chmod 664 /sys/class/leds/aw20036_led/factory_test
+    chown system system /sys/class/leds/aw20036_led/single_brightness
+    chown system system /sys/class/leds/aw20036_led/vip_notification
+    chown system system /sys/class/leds/aw20036_led/dev_color
+    chown system system /mnt/vendor/persist/color
+    chmod 444 /mnt/vendor/persist/color
+    chown system system /dev/led_strips
+    chmod 664 /dev/led_strips
+
+    #/*Nothing/ add for fingerprint cail / ARCA-583*/
+    #/*Nothing/ add for fingerprint fact dump / ARCA-72*/
+    #/*Nothing/ Unified dump storage path / ARCA-787*/
+    mkdir data/vendor/fpdump 0777 system system
+    restorecon /data/vendor/fpdump
+
+    chmod 550 /proc/nt_meminfo/
+    chown system system /proc/nt_meminfo/
+    chmod 550 /proc/nt_meminfo/show_all_dma
+    chown system system /proc/nt_meminfo/show_all_dma
+    chmod 550 /proc/nt_meminfo/show_all_tasks
+    chown system system /proc/nt_meminfo/show_all_tasks
+    chmod 550 /proc/nt_meminfo/show_all_task_dma
+    chown system system /proc/nt_meminfo/show_all_task_dma
+
+    chmod 550 /proc/nt_disk/
+    chown system system /proc/nt_disk/
+    chmod 550 /proc/nt_disk/get_data_usage
+    chown system system /proc/nt_disk/get_data_usage
+
+    #/*Nothing / Fingerprint function debug / ARCA-70*/
+    chmod 0660 /proc/touchpanel/fod_mode
+    chown system system /proc/touchpanel/fod_mode
+
+    #/*Nothing / TP charger flag function debug / ARCA-236*/
+    chmod 0660 /proc/touchpanel/TP_charger_flags
+    chown system system /proc/touchpanel/TP_charger_flags
+
+    #/*Nothing / diff function debug / ARCA-230*/
+    chmod 0660 /proc/touchpanel/diff_mode
+    chmod 0660 /proc/touchpanel/diff_data
+    chown system system /proc/touchpanel/diff_mode
+    chown system system /proc/touchpanel/diff_data
+
+    #Nothing/Support force key warm_reset feature/ARCA-270
+    chmod 0660 /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
+    chown system system /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
+
+
+#Nothing/Support force key warm_reset feature/ARCA-270
+on property:persist.vendor.stability.force_key_warm_reset=1
+    write /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset 1
+on property:persist.vendor.stability.force_key_warm_reset=0
+    write /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset 0
+
+on property:sys.system_server.start_count=1
+    write /sys/devices/virtual/NT/NT_reserve_kernel_log/boot_stage_systemserver 1
+
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
 
@@ -123,16 +271,12 @@ on property:vendor.display.lcd_density=640
    setprop dalvik.vm.heapgrowthlimit 512m
 
 on property:sys.boot_completed=1
-#ifdef NT_EDIT
     write /dev/cpuset/background/cpus 0-2
     write /dev/cpuset/system-background/cpus 0-5
-#endif NT_EDIT
 
-#ifdef NT_EDIT
 #/*Nothing/ change single-click-awake funtion node / ARCA-672*/
 on property:sys.touch.single_en.enable=*
     write /proc/touchpanel/gesture_mode ${sys.touch.single_en.enable}
-#endif NT_EDIT
 
 on init && property:ro.boot.mode=charger
     wait_for_prop vendor.all.modules.ready 1
@@ -227,6 +371,50 @@ on property:sys.touch.fp_status=*
     write /sys/panel_feature/fp_status ${sys.touch.fp_status}
 on property:sys.touch.pocket_mode=*
     write /proc/touchpanel/pocket_mode ${sys.touch.pocket_mode}
+
+
+on late-fs && property:ro.boot.pbid=Base
+    mount overlay overlay /vendor/etc/camera lowerdir=/vendor/etc/camera:/odm/overlayfs_origin/base/etc/camera,context=u:object_r:vendor_configs_file:s0
+
+on late-fs && property:ro.boot.pbid=Pro
+    mount overlay overlay /vendor/etc/camera lowerdir=/vendor/etc/camera:/odm/overlayfs_origin/pro/etc/camera,context=u:object_r:vendor_configs_file:s0
+
+# spencer add for A+G sensor calibration @{
+service vendor.ssc_drva_test.accel /vendor/bin/ssc_drva_test -sensor=accel -factory_test=2 -duration=3
+   class core
+   user system
+   group system
+   disabled
+   oneshot
+
+service vendor.ssc_drva_test.gyro /vendor/bin/ssc_drva_test -sensor=gyro -factory_test=2 -duration=3
+   class core
+   user system
+   group system
+   disabled
+   oneshot
+
+on property:sys.ssc_drva_test.accel=start
+   start vendor.ssc_drva_test.accel
+
+on property:sys.ssc_drva_test.accel=stop
+   stop vendor.ssc_drva_test.accel
+
+
+on property:sys.ssc_drva_test.gyro=start
+   start vendor.ssc_drva_test.gyro
+
+on property:sys.ssc_drva_test.gyro=stop
+   stop vendor.ssc_drva_test.gyro
+# @}
+
+# spencer add for sar sensor calibration @{
+service vendor.ssc_drva_test.sar /vendor/bin/ssc_drva_test -sensor=sar0 -factory_test=2 -duration=3
+   class core
+   user system
+   group system
+   disabled
+   oneshot
 
 # lio.chen@CoreBSP, Config OTG parameter
 on property:sys.otg.enable=1

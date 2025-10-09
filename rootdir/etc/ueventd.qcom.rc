@@ -398,10 +398,8 @@ subsystem mem_buf_vm
 
 # eSE permissions
 /dev/st54spi_gpio         0660   system     system
-# ifdef NT_EDIT
 # Nothing add eSE permissions /ARCA-22
 /dev/st54spi              0660   secure_element     secure_element
-# endif NT_EDIT
 
 # UIO devices
 /dev/uio0                 0660   system     system
