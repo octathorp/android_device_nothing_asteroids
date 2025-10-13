@@ -28,7 +28,7 @@ Keep in mind that this information could change without notice.
 | NFC             |     OK     | Requires further testing, NFC tag recognized properly        |
 | GPS/GNSS        |     OK     | Tested with GPS Test, real world testing required            |
 | Haptics         |     OK     | Working, but fine-tuning may be necessary                    |
-| Cameras         |     NO     | Not working                                                  |
+| Cameras         |     OK     | Working, needs further review                                |
 | Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | Extra key       |     NO     | Not working                                                  |

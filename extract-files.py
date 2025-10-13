@@ -69,50 +69,32 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/seccomp_policy/wfdhdcphalservice.policy': blob_fixup()
         .add_line_if_missing('rt_tgsigqueueinfo: 1'),
     (
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_back_imx882_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_back_s5kjn5_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_imx355_uw_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_s5kgn9_wide_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_s5kgnj_wide_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_s5kjn1_front_eeprom.so',
+        'vendor/lib64/camera/com.qti.eeprom.arcanine_s5kkd1_front_eeprom.so',
         'vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so',
         'vendor/lib64/camera/com.qti.eeprom.gt24p64b_imx688.so',
         'vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so',
         'vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so',
+        'vendor/lib64/camera/com.qti.ois.arcanine_imx882_tele_ois.so',
         'vendor/lib64/camera/com.qti.ois.bu63169gwz.so',
         'vendor/lib64/camera/com.qti.ois.dw9784.so',
-        'vendor/lib64/camera/com.qti.sensor.camano_imx688.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_qtech_imx882_tele.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_imx355_uw.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_s5kgn9_main.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_s5kgnj_main.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_s5kjn1_front.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_s5kjn5_tele.so',
+        'vendor/lib64/camera/com.qti.sensor.arcanine_shinetech_s5kkd1_front.so',
         'vendor/lib64/camera/com.qti.sensor.camano_imx766.so',
-        'vendor/lib64/camera/com.qti.sensor.camano_ov64b40.so',
         'vendor/lib64/camera/com.qti.sensor.camano_s5k3m5.so',
-        'vendor/lib64/camera/com.qti.sensor.fp6_imx896.so',
-        'vendor/lib64/camera/com.qti.sensor.imx362.so',
-        'vendor/lib64/camera/com.qti.sensor.imx363.so',
-        'vendor/lib64/camera/com.qti.sensor.imx376.so',
-        'vendor/lib64/camera/com.qti.sensor.imx386.so',
-        'vendor/lib64/camera/com.qti.sensor.imx476.so',
-        'vendor/lib64/camera/com.qti.sensor.imx481.so',
-        'vendor/lib64/camera/com.qti.sensor.imx519.so',
-        'vendor/lib64/camera/com.qti.sensor.imx563.so',
-        'vendor/lib64/camera/com.qti.sensor.imx576.so',
-        'vendor/lib64/camera/com.qti.sensor.imx586.so',
-        'vendor/lib64/camera/com.qti.sensor.imx588.so',
-        'vendor/lib64/camera/com.qti.sensor.imx686.so',
-        'vendor/lib64/camera/com.qti.sensor.imx688.so',
-        'vendor/lib64/camera/com.qti.sensor.imx766.so',
-        'vendor/lib64/camera/com.qti.sensor.max7366_6dof.so',
-        'vendor/lib64/camera/com.qti.sensor.max7366_eyetrack.so',
-        'vendor/lib64/camera/com.qti.sensor.max7366_ov6211.so',
-        'vendor/lib64/camera/com.qti.sensor.max7366_ov9282.so',
-        'vendor/lib64/camera/com.qti.sensor.ov13855.so',
-        'vendor/lib64/camera/com.qti.sensor.ov13b10.so',
-        'vendor/lib64/camera/com.qti.sensor.ov64b40.so',
-        'vendor/lib64/camera/com.qti.sensor.ov7251.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k2l7.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k2x5sp.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k33dxx.so',
         'vendor/lib64/camera/com.qti.sensor.s5k3m5.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k3p9.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k4h7.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k5e9yu05.so',
-        'vendor/lib64/camera/com.qti.sensor.s5k5e9yx04.so',
         'vendor/lib64/camera/com.qti.sensor.s5khp1s.so',
         'vendor/lib64/camera/com.qti.sensor.s5kjd1sp.so',
-        'vendor/lib64/camera/com.qti.sensor.s5kkd1sp.so',
         'vendor/lib64/camera/components/com.qti.node.depth.so',
         'vendor/lib64/camera/components/com.qti.node.depthprovider.so',
         'vendor/lib64/camera/components/com.qti.node.dewarp.so',
@@ -125,6 +107,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/camera/components/com.qti.node.hdr10phist.so',
         'vendor/lib64/camera/components/com.qti.node.itofpreprocess.so',
         'vendor/lib64/camera/components/com.qti.node.ml.so',
+        'vendor/lib64/camera/components/com.qti.node.mlinference.so',
         'vendor/lib64/camera/components/com.qti.node.seg.so',
         'vendor/lib64/camera/components/com.qti.node.swec.so',
         'vendor/lib64/camera/components/com.qti.node.swregistration.so',
@@ -198,20 +181,24 @@ blob_fixups: blob_fixups_user_type = {
         'android.hardware.graphics.allocator-V1-ndk.so',
         'android.hardware.graphics.allocator-V2-ndk.so',
     ),
-    (
-        'vendor/lib64/libmfnr_raw_api.so',
-        'vendor/lib64/libTclAISuperfine.so',
-        'vendor/lib64/libTclImage_ImageEngine.so',
-    ): blob_fixup()
+    'vendor/lib64/libmorpho_RapidEffect.so': blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
-        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_lockPlanes')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
         .add_needed('libcodec2_shim.so'),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
+    'vendor/lib64/libarcsoft_dark_vision_raw.so': blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
+        .clear_symbol_version('remote_register_buf_attr')
+        .clear_symbol_version('remote_register_buf')
+        .clear_symbol_version('rpcmem_alloc')
+        .clear_symbol_version('rpcmem_free'),
 
 }  # fmt: skip
 
