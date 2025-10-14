@@ -18,11 +18,11 @@ Keep in mind that this information could change without notice.
 | Touch           |     OK     | Seems to be ok                                               |
 | Charging        |     OK     | Requires further testing (PD and fast charging)              |
 | WiFi            |     OK     | Requires further testing, basic functionality seems to be ok |
-| Bluetooth       |     OK     | Scan and pairing ok, needs further testing (no audio)        |
+| Bluetooth       |     OK     | Scan and pairing ok, needs further testing                   |
 | Modem           |     OK     | System recognizes it, IMEIs displayed, SIM cards detected    |
 | Mobile data     |     OK     | Working properly at 5G speeds, APN automatically applied     |
-| Calls           |     ??     | Not tested yet                                               |
-| Audio           |     **     | Main speaker is ok with volume control, BT audio not working |
+| Calls           |     OK     | Works on a happy path, needs further review                  |
+| Audio           |     OK     | Speaker, BT and USB-C wired working                          |
 | Sensors         |     OK     | Sensors seem to be reporting properly                        |
 | 120Hz refresh   |     OK     | Automatic refresh rate (60-90-120Hz)                         |
 | NFC             |     OK     | Requires further testing, NFC tag recognized properly        |
@@ -32,6 +32,8 @@ Keep in mind that this information could change without notice.
 | Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | Extra key       |     NO     | Not working                                                  |
+| SELinux         |     NO     | Badly mangled                                                |
+| Glyph           |     NO     | Not working                                                  |
 
 
 <br>
