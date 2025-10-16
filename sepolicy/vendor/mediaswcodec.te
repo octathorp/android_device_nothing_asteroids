@@ -1,0 +1,2 @@
+allow mediaswcodec logd:unix_stream_socket connectto;
+allow mediaswcodec logdr_socket:sock_file write;

@@ -7,7 +7,6 @@ Keep in mind that this information could change without notice.
 ## Current status
 
 - LineageOS 22.2 is booting normally (userdebug variant).
-- SELinux is permissive (forced at BOARD_KERNEL_CMDLINE), so included sepolicies are totally wrong at this moment.  
 - Vendor files are obtained from 2506101841 build. Should be updated at some point.  
 - Some patches must be applied beforehand so that building process is completed successfully (*patches* folder).  
 <br>
@@ -31,8 +30,8 @@ Keep in mind that this information could change without notice.
 | Cameras         |     OK     | Working, needs further review                                |
 | Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
+| SELinux         |     OK     | System booting, main functions appear to be working ATM      |
 | Extra key       |     NO     | Not working                                                  |
-| SELinux         |     NO     | Badly mangled                                                |
 | Glyph           |     NO     | Not working                                                  |
 
 
