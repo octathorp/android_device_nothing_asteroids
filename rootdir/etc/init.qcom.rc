@@ -892,16 +892,6 @@ service esepmdaemon /system/vendor/bin/esepmdaemon
 on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
-##NT,start charge service
-    start vendor.charge-default-poweroff
-##Stop charge service
-
-##NT,start charge service
-service vendor.charge-default-poweroff /vendor/bin/hw/vendor.noth.hardware.charge-service
-    class core
-    group system
-    disabled
-##Stop charge sevice
 
 #add poweroffhandler
 service poweroffhandler /system/vendor/bin/poweroffhandler

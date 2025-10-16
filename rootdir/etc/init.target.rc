@@ -254,17 +254,6 @@ on boot
     chmod 0660 /proc/touchpanel/gesture_mode
     chown system system /proc/touchpanel/gesture_mode
 
-    #Nothing/Support force key warm_reset feature/ARCA-270
-    chmod 0660 /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
-    chown system system /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset
-
-
-#Nothing/Support force key warm_reset feature/ARCA-270
-on property:persist.vendor.stability.force_key_warm_reset=1
-    write /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset 1
-on property:persist.vendor.stability.force_key_warm_reset=0
-    write /sys/devices/platform/soc/c42d000.qcom,spmi/driver/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_hlos@1300/force_key_warm_reset 0
-
 on property:sys.system_server.start_count=1
     write /sys/devices/virtual/NT/NT_reserve_kernel_log/boot_stage_systemserver 1
 

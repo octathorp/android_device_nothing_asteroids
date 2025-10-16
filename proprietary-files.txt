@@ -539,10 +539,6 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
-vendor/bin/hw/vendor.noth.hardware.charge-service
-vendor/etc/init/vendor.noth.hardware.charge-service.rc
-vendor/etc/vintf/manifest/vendor.noth.hardware.charge-service.xml
-vendor/lib64/vendor.noth.hardware.charge-V1-ndk.so
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
@@ -1780,12 +1776,6 @@ vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 vendor/lib64/libsubsystem_control.so
-
-# Stability
-vendor/bin/hw/vendor.noth.hardware.stability-service
-vendor/etc/init/vendor.noth.hardware.stability-service.rc
-vendor/etc/vintf/manifest/vendor.noth.hardware.stability-service.xml
-vendor/lib64/vendor.noth.hardware.stability-V1-ndk.so
 
 # Telephony
 system/etc/sysconfig/qti_whitelist.xml
