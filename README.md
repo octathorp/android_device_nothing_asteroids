@@ -45,3 +45,26 @@ There are 4 patches that should be applied before launching build process. It's 
 - *hardware_qcom-caf_sm8650_data-ipa-cfg-mgr.patch*: resolves some imports not being found.
 - *hardware_qcom-caf_sm8650_display.patch*: resolves some imports not being found + reverts commit 8791e48 as it was causing a display-composer crash.
 - *vendor_lineage.patch*: forces dtb.img to be created with only the necessary dtb files + forces symbols to be retained during dtbs building.
+
+
+<br>
+
+## Back to stock ##
+
+Get stock NothingOS 2506101841 package and reboot into bootloader:
+
+	fastboot -w
+	fastboot flash boot boot.img
+	fastboot flash dtbo dtbo.img
+	fastboot flash vendor_boot vendor_boot.img
+	fastboot flash recovery recovery.img
+	fastboot flash init_boot init_boot.img
+	fastboot flash pvmfw pvmfw.img
+	fastboot flash vbmeta vbmeta.img
+	fastboot flash vbmeta_system vbmeta_system.img
+	fastboot flash vbmeta_vendor vbmeta_vendor.img
+	fastboot reboot recovery
+
+Once in recovery, sideload stock Asteroids_V3.1-250610-1841_3.1.zip full OTA:
+
+	adb sideload Asteroids_V3.1-250610-1841_3.1.zip
