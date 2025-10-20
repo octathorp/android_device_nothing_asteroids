@@ -31,7 +31,7 @@ Keep in mind that this information could change without notice.
 | Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | SELinux         |     OK     | System booting, main functions appear to be working ATM      |
-| Extra key       |     NO     | Not working                                                  |
+| Essential key   |     OK     | Mapped to assistant key, can be remapped in Settings         |
 | Glyph           |     NO     | Not working                                                  |
 
 
