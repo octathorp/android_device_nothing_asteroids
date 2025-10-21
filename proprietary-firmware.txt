@@ -15,7 +15,6 @@ imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
 multiimgoem.img;AB
-pvmfw.img;AB
 qupfw.img;AB
 shrm.img;AB
 tz.img;AB
