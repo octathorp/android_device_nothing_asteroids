@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="glyph_light_effect_preview_default_color_3a">#e1e3e5</color>
+    <color name="glyph_light_effect_preview_select_color_3a">#ffffff</color>
+    <color name="nt_glyphs_preview_color_3a_1">#c7c6ca</color>
+    <color name="nt_glyphs_preview_color_3a_2">#c7c6ca</color>
+    <color name="nt_glyphs_preview_color_3a_3">#b6b6ba</color>
+    <color name="glyph_settings_device_glyph_color">#ffffff</color>
+</resources>

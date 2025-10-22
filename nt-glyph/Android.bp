@@ -1,0 +1,65 @@
+java_defaults {
+    name: "glyph_app_defaults",
+
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+
+    resource_dirs: [],
+}
+
+android_library {
+    name: "nt-glyph-core",
+    platform_apis: true,
+
+    srcs: [
+        "src/**/*.java",
+    ],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "SettingsLib",
+    ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}
+
+android_app {
+    name: "AsteroidsGlyph",
+
+    defaults: ["glyph_app_defaults"],
+
+    asset_dirs: ["Asteroids/assets"],
+    resource_dirs: ["Asteroids/res"],
+
+    static_libs: [
+        "nt-glyph-core",
+    ],
+
+    required: [
+        "privapp_whitelist_org.lineageos.glyph.xml",
+        "whitelist_org.lineageos.glyph.xml",
+    ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_org.lineageos.glyph.xml",
+    src: "permissions/privapp_whitelist_org.lineageos.glyph.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_org.lineageos.glyph.xml",
+    src: "permissions/whitelist_org.lineageos.glyph.xml",
+    sub_dir: "sysconfig",
+    system_ext_specific: true,
+}

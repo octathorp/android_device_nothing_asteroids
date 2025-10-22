@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glyph_settings_call_toggle_title">
+
+    <org.lineageos.glyph.Preference.GlyphAnimationPreference
+        android:key="glyph_settings_call_sub_preview"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="glyph_settings_call_sub_toggle"
+        android:title="@string/glyph_settings_call_sub_toggle_title" />
+
+        <ListPreference
+            android:key="glyph_settings_call_sub_animations"
+            android:title="@string/glyph_settings_call_sub_animations_title"
+            android:defaultValue="@string/glyph_settings_call_animations_default"
+            android:layout="@layout/preference"
+            android:summary="%s" />
+
+</PreferenceScreen>

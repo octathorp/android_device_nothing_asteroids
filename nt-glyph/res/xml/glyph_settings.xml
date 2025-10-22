@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glyph_settings_title">
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:defaultValue="false"
+        android:key="glyph_enable"
+        android:title="@string/glyph_settings_enable" />
+
+    <SwitchPreferenceCompat
+        android:key="glyph_settings_flip_toggle"
+        android:defaultValue="true"
+        android:title="@string/glyph_settings_flip_toggle_title"
+        android:summary="@string/glyph_settings_flip_toggle_summary" />
+
+    <SeekBarPreference
+        android:key="glyph_settings_brightness"
+        android:title="@string/glyph_settings_brightness" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_call"
+        android:title="@string/glyph_settings_call_title" />
+
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="glyph_settings_call_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_call_toggle_title"
+            android:summary="@string/glyph_settings_call_toggle_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.lineageos.glyph"
+                 android:targetClass="org.lineageos.glyph.Settings.CallSettingsActivity"/>
+        </com.android.settingslib.PrimarySwitchPreference>
+
+    <PreferenceCategory
+        android:key="glyph_settings_notifs"
+        android:title="@string/glyph_settings_notifs_title" />
+
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="glyph_settings_notifs_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_notifs_toggle_title"
+            android:summary="@string/glyph_settings_notifs_toggle_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.lineageos.glyph"
+                 android:targetClass="org.lineageos.glyph.Settings.NotifsSettingsActivity"/>
+        </com.android.settingslib.PrimarySwitchPreference>
+
+    <PreferenceCategory
+        android:key="glyph_settings_charging"
+        android:title="@string/glyph_settings_charging_title" />
+
+        <SwitchPreferenceCompat
+            android:key="glyph_settings_charging_level"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_charging_level_title"
+            android:summary="@string/glyph_settings_charging_level_summary" />
+
+        <SwitchPreferenceCompat
+            android:key="glyph_settings_charging_powershare"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_charging_powershare_title"
+            android:summary="@string/glyph_settings_charging_powershare_summary" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_volume"
+        android:title="@string/glyph_settings_volume_title" />
+
+        <SwitchPreferenceCompat
+            android:key="glyph_settings_volume_level_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_volume_level_toggle_title"
+            android:summary="@string/glyph_settings_volume_level_toggle_summary" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_misc"
+        android:title="@string/glyph_settings_misc_title" />
+
+        <SwitchPreferenceCompat
+            android:key="glyph_settings_music_visualizer_toggle"
+            android:defaultValue="false"
+            android:title="@string/glyph_settings_music_visualizer_toggle_title"
+            android:summary="@string/glyph_settings_music_visualizer_toggle_summary" />
+
+</PreferenceScreen>

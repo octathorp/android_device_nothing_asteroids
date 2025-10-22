@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Animations -->
+    <string-array name="glyph_settings_animations_slugs" translatable="false">
+    </string-array>
+    <integer-array name="glyph_settings_animations_supported_pattern_lengths" translatable="false">
+    </integer-array>
+
+    <!-- Battery Animations -->
+    <bool name="glyph_settings_battery_dot" translatable="false">false</bool>
+    <integer name="glyph_settings_battery_levels_num" translatable="false"></integer>
+
+    <!-- Call Animations -->
+    <string name="glyph_settings_call_animations_default" translatable="false"></string>
+
+    <!-- Notification Animations -->
+    <string name="glyph_settings_notifs_animations_default" translatable="false"></string>
+    <integer name="glyph_settings_notifs_essential_led" translatable="false"></integer>
+
+    <!-- Volume Animations -->
+    <integer name="glyph_settings_volume_levels_num" translatable="false"></integer>
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.glyph"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:label="@string/glyph_settings_app_name"
+        android:persistent="true"
+        android:defaultToDeviceProtectedStorage="true"
+        android:enableOnBackInvokedCallback="true"
+        android:directBootAware="true">
+
+        <receiver
+            android:name=".BootCompletedReceiver"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Services.CallReceiverService"
+            android:permission="android.permission.READ_PHONE_STATE">
+        </service>
+
+        <service
+            android:name=".Services.ChargingService">
+        </service>
+
+        <service
+            android:name=".Services.PowershareService">
+        </service>
+
+        <service
+            android:name=".Services.FlipToGlyphService">
+        </service>
+
+        <service
+            android:name=".Services.MusicVisualizerService">
+        </service>
+
+        <service
+            android:name=".Services.VolumeLevelService">
+        </service>
+
+        <service
+            android:name=".Services.NotificationService"
+            android:exported="false"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".Tiles.GlyphTileService"
+            android:exported="true"
+            android:label="@string/glyph_accessibility_quick_settings"
+            android:icon="@drawable/ic_glyphs_logo"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Tiles.TorchTileService"
+            android:exported="true"
+            android:label="@string/glyph_accessibility_quick_settings_torch"
+            android:icon="@drawable/ic_glyphs_logo"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".Tiles.TileActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Settings.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:label="@string/glyph_settings_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_glyphs_logo" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:value="@string/glyph_settings_summary" />
+             <meta-data
+                android:name="com.android.settings.order"
+                android:value="-255" />
+        </activity>
+
+        <activity
+            android:name=".Settings.CallSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Settings.NotifsSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

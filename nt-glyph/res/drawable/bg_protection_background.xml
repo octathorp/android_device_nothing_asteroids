@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/glyph_settings_protection_background_color"/>
+            <corners android:radius="28dp"/>
+        </shape>
+    </item>
+</layer-list>

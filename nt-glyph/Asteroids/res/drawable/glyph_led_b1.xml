@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="61dp"
+    android:width="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="61">
+    <path
+        android:fillColor="@color/glyph_light_effect_preview_default_color_3a"
+        android:pathData="M8.649,4.392C8.272,2.87 9.21,1.332 10.732,0.963C12.254,0.595 13.792,1.524 14.161,3.046C18.807,22.025 15.803,42.077 5.805,58.861C5.004,60.207 3.257,60.647 1.912,59.846C0.566,59.045 0.125,57.299 0.926,55.953C10.171,40.443 12.943,21.921 8.649,4.392Z"/>
+</vector>

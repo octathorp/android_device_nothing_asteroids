@@ -1,5 +1,5 @@
 # Nothing Phone 3a (Asteroids) device tree
-NOTICE: this is a work in progress, do not attempt to use it for your main device as it lacks a lot of features at this moment.
+NOTICE: this is a work in progress, do not attempt to use it for your main device as it is not stable enough at this moment.
 <br>
 Keep in mind that this information could change without notice.
 <br>
@@ -32,7 +32,7 @@ Keep in mind that this information could change without notice.
 | USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
 | SELinux         |     OK     | System booting, main functions appear to be working ATM      |
 | Essential key   |     OK     | Mapped to assistant key, can be remapped in Settings         |
-| Glyph           |     NO     | Not working                                                  |
+| Glyph           |     OK     | Working                                                      |
 
 
 <br>

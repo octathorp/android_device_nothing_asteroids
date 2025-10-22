@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paths -->
+    <string name="glyph_settings_paths_all_absolute" translatable="false">/sys/class/leds/aw20036_led/all_white_brightness</string>
+    <string name="glyph_settings_paths_frame_absolute" translatable="false">/sys/class/leds/aw20036_led/frame_brightness</string>
+    <string name="glyph_settings_paths_mode_absolute" translatable="false">/sys/class/leds/aw20036_led/operating_mode</string>
+    <string name="glyph_settings_paths_single_absolute" translatable="false">/sys/class/leds/aw20036_led/single_brightness</string>
+
+    <string name="glyph_settings_paths_powershare_active_absolute" translatable="false">/sys/class/qcom-battery/wls_reverse_status</string>
+    <string name="glyph_settings_paths_powershare_enabled_absolute" translatable="false">/sys/class/qcom-battery/wireless_boost_en</string>
+
+</resources>

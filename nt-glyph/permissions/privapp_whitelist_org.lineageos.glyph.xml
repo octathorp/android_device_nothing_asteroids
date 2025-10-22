@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<permissions>
+    <privapp-permissions package="org.lineageos.glyph">
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>
