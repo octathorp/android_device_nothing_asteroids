@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 
 public class FlipToGlyphSensor implements SensorEventListener {
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "FlipToGlyphSensor";
 
     private boolean isFlipped = false;

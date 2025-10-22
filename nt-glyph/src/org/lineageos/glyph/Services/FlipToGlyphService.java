@@ -20,7 +20,7 @@ import org.lineageos.glyph.Sensors.FlipToGlyphSensor;
 public class FlipToGlyphService extends Service {
 
     private static final String TAG = "FlipToGlyphService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private boolean isFlipped;
     private int ringerMode;

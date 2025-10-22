@@ -18,7 +18,7 @@ import org.lineageos.glyph.Settings.SettingsActivity;
 
 public class TileActivity extends Activity {
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "TileActivity";
 
     @Override

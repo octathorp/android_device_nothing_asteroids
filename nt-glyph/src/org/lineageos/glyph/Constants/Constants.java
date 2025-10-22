@@ -12,7 +12,7 @@ import org.lineageos.glyph.Utils.ResourceUtils;
 public final class Constants {
 
     private static final String TAG = "GlyphConstants";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     public static Context CONTEXT;
 

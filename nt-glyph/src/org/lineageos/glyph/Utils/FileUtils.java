@@ -21,7 +21,7 @@ import org.lineageos.glyph.Constants.Constants;
 public final class FileUtils {
 
     private static final String TAG = "GlyphFileUtils";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     public static String readLine(String fileName) {
         String line = null;

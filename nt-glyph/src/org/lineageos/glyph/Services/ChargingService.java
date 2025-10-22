@@ -24,7 +24,7 @@ import org.lineageos.glyph.Manager.AnimationManager;
 public class ChargingService extends Service {
 
     private static final String TAG = "GlyphChargingService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private BatteryManager mBatteryManager;
     private SensorManager mSensorManager;

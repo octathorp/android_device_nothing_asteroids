@@ -23,7 +23,7 @@ import org.lineageos.glyph.Utils.ResourceUtils;
 public final class SettingsManager {
 
     private static final String TAG = "GlyphSettingsManager";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static Context context = Constants.CONTEXT;
 

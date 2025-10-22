@@ -22,7 +22,7 @@ import org.lineageos.glyph.Utils.ResourceUtils;
 public class PowershareService extends Service {
 
     private static final String TAG = "GlyphPowershareService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static final String POWERSHARE_ACTIVE = ResourceUtils.getString("glyph_settings_paths_powershare_active_absolute");
     private static final String POWERSHARE_ENABLED = ResourceUtils.getString("glyph_settings_paths_powershare_enabled_absolute");

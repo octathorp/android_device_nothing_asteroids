@@ -18,7 +18,7 @@ import org.lineageos.glyph.Manager.AnimationManager;
 public class MusicVisualizerService extends Service {
 
     private static final String TAG = "GlyphMusicVisualizerService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private Visualizer mVisualizer;
     private int bufferSize;

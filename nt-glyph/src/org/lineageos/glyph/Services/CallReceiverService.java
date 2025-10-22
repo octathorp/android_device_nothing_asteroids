@@ -23,7 +23,7 @@ import org.lineageos.glyph.Manager.SettingsManager;
 public class CallReceiverService extends Service {
 
     private static final String TAG = "GlyphCallReceiverService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private AudioManager mAudioManager;
 

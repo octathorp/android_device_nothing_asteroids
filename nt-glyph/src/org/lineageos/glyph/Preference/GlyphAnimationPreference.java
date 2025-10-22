@@ -29,7 +29,7 @@ import org.lineageos.glyph.Utils.ResourceUtils;
 public class GlyphAnimationPreference extends Preference {
 
     private final String TAG = "GlyphAnimationPreference";
-    private final boolean DEBUG = true;
+    private final boolean DEBUG = false;
 
     private Activity mActivity;
 

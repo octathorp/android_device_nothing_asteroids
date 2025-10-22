@@ -35,7 +35,7 @@ public class NotificationService extends NotificationListenerService
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = "GlyphNotification";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private NotificationManager mNotificationManager;
     private PowerManager mPowerManager;

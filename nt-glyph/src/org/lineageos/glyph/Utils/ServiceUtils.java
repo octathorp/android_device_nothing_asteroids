@@ -22,7 +22,7 @@ import org.lineageos.glyph.Services.VolumeLevelService;
 public final class ServiceUtils {
 
     private static final String TAG = "GlyphServiceUtils";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static Context context = Constants.CONTEXT;
 

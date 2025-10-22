@@ -23,7 +23,7 @@ import org.lineageos.glyph.Utils.ResourceUtils;
 public final class AnimationManager {
 
     private static final String TAG = "GlyphAnimationManager";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static Future<?> submit(Runnable runnable) {
         ExecutorService executorService = Executors.newSingleThreadExecutor();

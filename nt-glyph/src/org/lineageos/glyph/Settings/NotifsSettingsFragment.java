@@ -41,7 +41,7 @@ public class NotifsSettingsFragment extends PreferenceFragment implements OnPref
         OnCheckedChangeListener {
 
     private static final String TAG = "NotifsSettingsFragment";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private PreferenceScreen mScreen;
 

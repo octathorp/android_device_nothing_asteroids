@@ -21,7 +21,7 @@ import org.lineageos.glyph.Constants.Constants;
 public final class ResourceUtils {
 
     private static final String TAG = "GlyphResourceUtils";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static Context context = Constants.CONTEXT;
 

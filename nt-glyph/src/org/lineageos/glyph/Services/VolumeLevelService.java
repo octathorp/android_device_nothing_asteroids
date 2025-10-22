@@ -21,7 +21,7 @@ import org.lineageos.glyph.Manager.AnimationManager;
 public class VolumeLevelService extends Service {
 
     private static final String TAG = "GlyphVolumeLevelService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private ContentResolver mContentResolver;
     private VolumeObserver mVolumeObserver;
