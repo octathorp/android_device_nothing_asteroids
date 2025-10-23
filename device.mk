@@ -258,7 +258,6 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon_Sys_Asteroids \
     FrameworksResTarget_Vendor \
     NothingSettingsOverlay \
-    SettingsResCommon_Sys \
     SystemUI_Asteroids \
     SystemUIResCommon_Sys \
     TelecommResCommon_Sys \

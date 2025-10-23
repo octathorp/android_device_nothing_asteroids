@@ -16,6 +16,15 @@
         <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
         <item>Invalid finger\nThe detected fingerprint could not be used for unlocking, please try again If this error persists, please contact customer support.</item>
     </array>
+    <array name="config_udfps_touch_detection_options">
+        <item>0,0,1.0,0,1</item>
+        <item>1,1,1.0,0,1</item>
+        <item>1,1,1.0,.4,1</item>
+        <item>1,1,1.0,.15,15</item>
+        <item>0,0,0.7,0,1</item>
+        <item>0,0,0.83333,0,1</item>
+        <item>0,0,1.1667,0,1</item>
+    </array>
     <array name="zzz_config_device_disable_all_apk_list">
         <item>com.qualcomm.qti.server.qtiwifi</item>
         <item>com.nt.facerecognition</item>

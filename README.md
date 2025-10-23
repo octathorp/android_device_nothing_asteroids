@@ -11,28 +11,28 @@ Keep in mind that this information could change without notice.
 - Some patches must be applied beforehand so that building process is completed successfully (*patches* folder).  
 <br>
 
-| Feature         | Status     | Comments                                                     |
+| Feature         | Status     | To Do                                                        |
 | --------------- |------------|--------------------------------------------------------------|
-| Display         |     OK     | Requires further testing, color adjusting needs improvements |
-| Touch           |     OK     | Seems to be ok                                               |
+| Display         |     OK     |                                                              |
+| Touch           |     OK     |                                                              |
 | Charging        |     OK     | Requires further testing (PD and fast charging)              |
-| WiFi            |     OK     | Requires further testing, basic functionality seems to be ok |
-| Bluetooth       |     OK     | Scan and pairing ok, needs further testing                   |
-| Modem           |     OK     | System recognizes it, IMEIs displayed, SIM cards detected    |
-| Mobile data     |     OK     | Working properly at 5G speeds, APN automatically applied     |
-| Calls           |     OK     | Works on a happy path, needs further review                  |
-| Audio           |     OK     | Speaker, BT and USB-C wired working                          |
-| Sensors         |     OK     | Sensors seem to be reporting properly                        |
-| 120Hz refresh   |     OK     | Automatic refresh rate (60-90-120Hz)                         |
+| WiFi            |     OK     | Requires further testing                                     |
+| Bluetooth       |     OK     | Needs further testing                                        |
+| Modem           |     OK     |                                                              |
+| Mobile data     |     OK     |                                                              |
+| Calls           |     OK     | Needs further review (noise cancelling, VoLTE?)              |
+| Audio           |     OK     |                                                              |
+| Sensors         |     OK     |                                                              |
+| 120Hz refresh   |     OK     |                                                              |
 | NFC             |     OK     | Requires further testing, NFC tag recognized properly        |
-| GPS/GNSS        |     OK     | Tested with GPS Test, real world testing required            |
-| Haptics         |     OK     | Working, but fine-tuning may be necessary                    |
-| Cameras         |     OK     | Working, needs further review                                |
-| Fingerprint     |     OK     | Working, requires resources-related work (broken visuals)    |
-| USB             |     OK     | File transfer (MTP), ADB and OTG working properly            |
-| SELinux         |     OK     | System booting, main functions appear to be working ATM      |
-| Essential key   |     OK     | Mapped to assistant key, can be remapped in Settings         |
-| Glyph           |     OK     | Working                                                      |
+| GPS/GNSS        |     OK     | Real world testing required                                  |
+| Haptics         |     OK     |                                                              |
+| Cameras         |     OK     |                                                              |
+| Fingerprint     |     OK     | Requires some minor, cosmetic improvements                   |
+| USB             |     OK     |                                                              |
+| SELinux         |     OK     |                                                              |
+| Essential key   |     OK     |                                                              |
+| Glyph           |     OK     |                                                              |
 
 
 <br>

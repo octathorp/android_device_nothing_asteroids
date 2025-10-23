@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
-</resources>
