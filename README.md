@@ -1,3 +1,7 @@
+# Notice: DEPRECATED
+This repo is deprecated, use https://github.com/AKoskovich/android_device_nothing_asteroids instead.
+No further work will be done here.
+   
 # Nothing Phone 3a (Asteroids) device tree
 NOTICE: this is a work in progress, do not attempt to use it for your main device as it is not stable enough at this moment.
 <br>
